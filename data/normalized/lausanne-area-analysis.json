@@ -1,0 +1,337 @@
+{
+  "center": {
+    "name": "Lausanne",
+    "latitude": 46.5197,
+    "longitude": 6.6323
+  },
+  "input_count": 40,
+  "analyzed_count": 40,
+  "radius_counts": {
+    "10": 6,
+    "20": 7,
+    "30": 12,
+    "40": 13
+  },
+  "listings": [
+    {
+      "title": "APPARTEMENT 3½ PIÈCES À LAUSANNE (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Lausanne",
+      "postal_code": "1003",
+      "distance_km": 1.59,
+      "price_monthly": 3600.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-lausanne-vd-meuble-duree-determinee-3"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À LAUSANNE - CENTRE-VILLE, MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Lausanne",
+      "postal_code": "1005",
+      "distance_km": 2.22,
+      "price_monthly": 2225.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-lausanne-centre-ville-meuble-duree-determinee-2"
+    },
+    {
+      "title": "APPARTEMENT 2 PIÈCES À PULLY (VD), MEUBLÉ",
+      "city": "Pully",
+      "postal_code": "1009",
+      "distance_km": 2.94,
+      "price_monthly": 2032.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-pully-vd-meuble-1"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À CHAVANNES-PRÈS-RENENS (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Chavannes-près-Renens",
+      "postal_code": "1022",
+      "distance_km": 3.66,
+      "price_monthly": null,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-chavannes-pres-renens-vd-meuble-duree-determinee-1"
+    },
+    {
+      "title": "APPARTEMENT 4½ PIÈCES À LUTRY (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Lutry",
+      "postal_code": "1095",
+      "distance_km": 5.0,
+      "price_monthly": 3360.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-lutry-vd-meuble-duree-determinee-2"
+    },
+    {
+      "title": "MAISON 3½ PIÈCES À LUTRY (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Lutry",
+      "postal_code": "1095",
+      "distance_km": 5.0,
+      "price_monthly": 4500.0,
+      "source_url": "https://ronorp.net/market/posts/maison-3-pieces-a-lutry-vd-meuble-duree-determinee-1"
+    },
+    {
+      "title": "APPARTEMENT 6½ PIÈCES À YENS (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Yens",
+      "postal_code": "1169",
+      "distance_km": 18.96,
+      "price_monthly": 2994.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-6-pieces-a-yens-vd-meuble-duree-determinee-2"
+    },
+    {
+      "title": "MAISON 5½ PIÈCES À CHAILLY-MONTREUX (VD), MEUBLÉ",
+      "city": "Chailly-Montreux",
+      "postal_code": "1816",
+      "distance_km": 21.28,
+      "price_monthly": 4500.0,
+      "source_url": "https://ronorp.net/market/posts/maison-5-pieces-a-chailly-montreux-vd-meuble-2"
+    },
+    {
+      "title": "APPARTEMENT 5½ PIÈCES À MONTREUX (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Montreux",
+      "postal_code": "1820",
+      "distance_km": 24.86,
+      "price_monthly": 5400.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-5-pieces-a-montreux-vd-meuble-duree-determinee-3"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À MONTREUX (VD), MEUBLÉ",
+      "city": "Montreux",
+      "postal_code": "1820",
+      "distance_km": 24.86,
+      "price_monthly": 3450.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-montreux-vd-meuble-4"
+    },
+    {
+      "title": "chambre dans colocation avec cachet et vue sur le lac Léman",
+      "city": null,
+      "postal_code": "1844",
+      "distance_km": 27.62,
+      "price_monthly": 950.0,
+      "source_url": "https://ronorp.net/market/posts/chambre-dans-colocation-avec-cachet-et-vue-sur-le-lac-leman"
+    },
+    {
+      "title": "MAISON 5½ PIÈCES À VILLENEUVE (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Villeneuve VD",
+      "postal_code": "1844",
+      "distance_km": 29.77,
+      "price_monthly": 4750.0,
+      "source_url": "https://ronorp.net/market/posts/maison-5-pieces-a-villeneuve-vd-meuble-duree-determinee-2"
+    },
+    {
+      "title": "APPARTEMENT 4 PIÈCES À YVERDON-LES-BAINS (VD), MEUBLÉ",
+      "city": "Yverdon-les-Bains",
+      "postal_code": "1400",
+      "distance_km": 30.2,
+      "price_monthly": 2604.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-yverdon-les-bains-vd-meuble"
+    },
+    {
+      "title": "APPARTEMENT 3 PIÈCES À GENÈVE - SAINT-JEAN/CHARMILLES, MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Genève",
+      "postal_code": "1203",
+      "distance_km": 51.06,
+      "price_monthly": 2280.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-geneve-saint-jeancharmilles-meuble-duree-determinee-2"
+    },
+    {
+      "title": "APPARTEMENT 4 PIÈCES À GENÈVE - LANCY, MEUBLÉ",
+      "city": "Genève",
+      "postal_code": "1203",
+      "distance_km": 51.06,
+      "price_monthly": 3480.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-geneve-lancy-meuble-2"
+    },
+    {
+      "title": "APPARTEMENT 4 PIÈCES À GENÈVE - SAINT-JEAN/CHARMILLES, MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Genève",
+      "postal_code": "1203",
+      "distance_km": 51.06,
+      "price_monthly": 4320.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-geneve-saint-jeancharmilles-meuble-duree-determinee-2"
+    },
+    {
+      "title": "APPARTEMENT MANSARDÉ 2½ PIÈCES À GENÈVE - CENTRE, MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Genève",
+      "postal_code": "1204",
+      "distance_km": 51.12,
+      "price_monthly": 3096.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-mansarde-2-pieces-a-geneve-centre-meuble-duree-determinee-2"
+    },
+    {
+      "title": "APPARTEMENT 4 PIÈCES À GENÈVE - SERVETTE/PETIT-SACONNEX, MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Genève",
+      "postal_code": "1209",
+      "distance_km": 51.2,
+      "price_monthly": 4490.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-geneve-servettepetit-saconnex-meuble-duree-determinee"
+    },
+    {
+      "title": "APPARTEMENT 4 PIÈCES À GENÈVE - EAUX-VIVES, MEUBLÉ",
+      "city": "Genève",
+      "postal_code": "1208",
+      "distance_km": 51.21,
+      "price_monthly": 5200.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-geneve-eaux-vives-meuble-3"
+    },
+    {
+      "title": "APPARTEMENT 2 PIÈCES À GENÈVE - PLAINPALAIS/ACACIAS, MEUBLÉ",
+      "city": "Genève",
+      "postal_code": "1205",
+      "distance_km": 51.81,
+      "price_monthly": 2490.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-geneve-plainpalaisacacias-meuble-1"
+    },
+    {
+      "title": "Sous location",
+      "city": "Quai du cheval blanc 20",
+      "postal_code": "1227",
+      "distance_km": 52.53,
+      "price_monthly": 1680.0,
+      "source_url": "https://ronorp.net/market/posts/sous-location"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À CAROUGE (GE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Carouge GE",
+      "postal_code": "1227",
+      "distance_km": 52.64,
+      "price_monthly": 2063.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-carouge-ge-meuble-duree-determinee-4"
+    },
+    {
+      "title": "APPARTEMENT 4½ PIÈCES À FRIBOURG (FR), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Fribourg",
+      "postal_code": "1700",
+      "distance_km": 52.77,
+      "price_monthly": 2400.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-fribourg-fr-meuble-duree-determinee-1"
+    },
+    {
+      "title": "APPARTEMENT 3½ PIÈCES À SALAVAUX (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Salavaux",
+      "postal_code": "1585",
+      "distance_km": 52.92,
+      "price_monthly": 2280.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-salavaux-vd-meuble-duree-determinee"
+    },
+    {
+      "title": "MAISON 4½ PIÈCES À BARBERÊCHE (FR), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Barberêche",
+      "postal_code": "1783",
+      "distance_km": 53.37,
+      "price_monthly": 3400.0,
+      "source_url": "https://ronorp.net/market/posts/maison-4-pieces-a-barbereche-fr-meuble-duree-determinee-2"
+    },
+    {
+      "title": "MAISON 4½ PIÈCES À BARBERÊCHE (FR), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Barberêche",
+      "postal_code": "1783",
+      "distance_km": 53.37,
+      "price_monthly": 3400.0,
+      "source_url": "https://ronorp.net/market/posts/maison-4-pieces-a-barbereche-fr-meuble-duree-determinee-1"
+    },
+    {
+      "title": "LOFT À BELLERIVE (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Bellerive VD",
+      "postal_code": "1585",
+      "distance_km": 53.76,
+      "price_monthly": 1625.0,
+      "source_url": "https://ronorp.net/market/posts/loft-a-bellerive-vd-meuble-duree-determinee-1"
+    },
+    {
+      "title": "APPARTEMENT 2 PIÈCES À BELLERIVE (VD), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Bellerive VD",
+      "postal_code": "1585",
+      "distance_km": 53.76,
+      "price_monthly": 1680.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-bellerive-vd-meuble-duree-determinee"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À GUSCHELMUTH (FR), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Guschelmuth",
+      "postal_code": "1792",
+      "distance_km": 56.74,
+      "price_monthly": 1875.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-guschelmuth-fr-meuble-duree-determinee"
+    },
+    {
+      "title": "APPARTEMENT 3½ PIÈCES À NEUCHÂTEL (NE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Neuchâtel",
+      "postal_code": "2000",
+      "distance_km": 57.08,
+      "price_monthly": 2460.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-neuchatel-ne-meuble-duree-determinee"
+    },
+    {
+      "title": "MAISON 6½ PIÈCES À LA NEUVEVILLE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "la Neuveville",
+      "postal_code": "2520",
+      "distance_km": 69.63,
+      "price_monthly": 3360.0,
+      "source_url": "https://ronorp.net/market/posts/maison-6-pieces-a-la-neuveville-be-meuble-duree-determinee"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2503",
+      "distance_km": 82.62,
+      "price_monthly": 1375.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-bielbienne-be-meuble-duree-determinee-14"
+    },
+    {
+      "title": "APPARTEMENT 2½ PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2503",
+      "distance_km": 82.62,
+      "price_monthly": 1320.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-2-pieces-a-bielbienne-be-meuble-duree-determinee-13"
+    },
+    {
+      "title": "APPARTEMENT 4½ PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2504",
+      "distance_km": 82.67,
+      "price_monthly": 1440.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-bielbienne-be-meuble-duree-determinee-1"
+    },
+    {
+      "title": "APPARTEMENT 3½ PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2502",
+      "distance_km": 85.4,
+      "price_monthly": 2500.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-bielbienne-be-meuble-duree-determinee-141"
+    },
+    {
+      "title": "APPARTEMENT 4 PIÈCES À BIEL/BIENNE (BE), MEUBLÉ",
+      "city": "Biel/Bienne",
+      "postal_code": "2502",
+      "distance_km": 85.4,
+      "price_monthly": 3063.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-4-pieces-a-bielbienne-be-meuble-2"
+    },
+    {
+      "title": "APPARTEMENT 3 PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2502",
+      "distance_km": 85.4,
+      "price_monthly": 1980.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-bielbienne-be-meuble-duree-determinee-140"
+    },
+    {
+      "title": "APPARTEMENT 3½ PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2502",
+      "distance_km": 85.4,
+      "price_monthly": 1992.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-bielbienne-be-meuble-duree-determinee-139"
+    },
+    {
+      "title": "APPARTEMENT 3½ PIÈCES À BIEL/BIENNE (BE), MEUBLÉ, DURÉE DÉTERMINÉE",
+      "city": "Biel/Bienne",
+      "postal_code": "2502",
+      "distance_km": 85.4,
+      "price_monthly": 2160.0,
+      "source_url": "https://ronorp.net/market/posts/appartement-3-pieces-a-bielbienne-be-meuble-duree-determinee-138"
+    },
+    {
+      "title": "Louez temporairement votre appartement privé et meublé.",
+      "city": null,
+      "postal_code": "2026",
+      "distance_km": 113.96,
+      "price_monthly": null,
+      "source_url": "https://ronorp.net/market/posts/louez-temporairement-votre-appartement-prive-et-meuble-4"
+    }
+  ]
+}

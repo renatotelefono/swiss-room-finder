@@ -1,0 +1,73 @@
+{
+  "input_file": "data\\final\\lausanne-listings.geojson",
+  "listing_count": 144,
+  "thresholds": {
+    "minimum_candidate_score": 60,
+    "high_confidence_score": 85
+  },
+  "candidate_count": 1,
+  "high_confidence_count": 0,
+  "review_count": 1,
+  "candidates": [
+    {
+      "score": 80,
+      "confidence": "review",
+      "reasons": [
+        "same_normalized_address",
+        "exact_coordinates_within_0m",
+        "same_postal_code",
+        "same_city",
+        "different_property_type"
+      ],
+      "metrics": {
+        "distance_m": 0.0,
+        "price_difference_chf": 2000.0,
+        "size_difference_m2": 19.0,
+        "rooms_difference": 3.5,
+        "title_similarity": 0.465
+      },
+      "a": {
+        "index": 48,
+        "source": "immobilier.ch",
+        "source_id": "1521091",
+        "source_url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rudin-immobilier-sarl-1061/appartement-2eme-etage-coeur-lausanne-1521091",
+        "title": "Appartement au 2ème étage, au coeur de Lausanne",
+        "description_title": "Votre garantie de loyer",
+        "price_monthly": 3250.0,
+        "address": "Chemin des Retraites 11",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "location_precision": "address",
+        "latitude": 46.524818420410156,
+        "longitude": 6.615849018096924,
+        "property_type": "apartment",
+        "rooms": 4.5,
+        "size_m2": 118.0,
+        "usable_area_m2": null,
+        "furnished": null,
+        "available_from": null
+      },
+      "b": {
+        "index": 49,
+        "source": "flatfox",
+        "source_id": "86270115",
+        "source_url": "https://flatfox.ch/fr/flat/chemin-des-retraites-11-1004-lausanne/86270115",
+        "title": "Chambre en colocation à louer à Lausanne",
+        "description_title": "(Étudiant) Chambre meublée à louer – Chemin des Retraites, Lausanne",
+        "price_monthly": 1250.0,
+        "address": "Chemin des Retraites 11",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "location_precision": "address",
+        "latitude": 46.524818420410156,
+        "longitude": 6.615849018096924,
+        "property_type": "private_room",
+        "rooms": 1.0,
+        "size_m2": 99.0,
+        "usable_area_m2": null,
+        "furnished": true,
+        "available_from": null
+      }
+    }
+  ]
+}

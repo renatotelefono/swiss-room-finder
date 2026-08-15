@@ -1,0 +1,632 @@
+{
+  "source": "immobilier.ch",
+  "source_section": "lausanne",
+  "source_url": "https://www.immobilier.ch/fr/louer/appartement-maison/vaud/lausanne-1004/page-1?group=1",
+  "collected_at": "2026-08-14T09:43:52.417620+00:00",
+  "count": 89,
+  "listings": [
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/bernard-nicod-lausanne-gare-gerance-2201/attique-exception-15-piece-vue-imprenable-lac-1467449",
+      "title": "Top Annonce recommandée par l'agence CHF 1'740.-/mois (+120.- charges) Attique 1.5 pièces Lausanne, 23, avenue de Riant-Mont 51 m 2 1 1 1.5",
+      "price_chf": 1740.0,
+      "postal_code": null,
+      "card_text": "Top Annonce recommandée par l'agence CHF 1'740.-/mois (+120.- charges) Attique 1.5 pièces Lausanne, 23, avenue de Riant-Mont 51 m 2 1 1 1.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/immoregie-sarl-2303/habitat-25-pieces-2eme-etage-1551024",
+      "title": "New CHF 1'482.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Chemin des Cèdres 2 59 m 2 2.5",
+      "price_chf": 1482.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'482.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Chemin des Cèdres 2 59 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/votre-logement-centre-ville-lausanne-1551150",
+      "title": "New CHF 2'010.-/mois (+270.- charges) Appartement 4 pièces Lausanne, Avenue de Beaulieu 22 76 m 2 4",
+      "price_chf": 2010.0,
+      "postal_code": null,
+      "card_text": "New CHF 2'010.-/mois (+270.- charges) Appartement 4 pièces Lausanne, Avenue de Beaulieu 22 76 m 2 4"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regie-braun-276/appartement-1-pieces-1552362",
+      "title": "New CHF 1'150.-/mois (+107.- charges) Appartement 1 pièce Lausanne, Chemin des Clochetons 6 45 m 2 1",
+      "price_chf": 1150.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'150.-/mois (+107.- charges) Appartement 1 pièce Lausanne, Chemin des Clochetons 6 45 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/pbbg-gerances-gestions-immobilieres-271/bel-appartement-2-pieces-1er-etage-1549691",
+      "title": "New CHF 1'400.-/mois (+130.- charges) Appartement 2 pièces Lausanne, Avenue Vinet 12 53 m 2 2",
+      "price_chf": 1400.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'400.-/mois (+130.- charges) Appartement 2 pièces Lausanne, Avenue Vinet 12 53 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/golay-immobilier-260/appartement-25-pieces-3eme-etage-env-58-1551011",
+      "title": "New CHF 1'290.-/mois (+160.- charges) Appartement 2.5 pièces Lausanne, Avenue Vinet 18 58 m 2 2.5",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'290.-/mois (+160.- charges) Appartement 2.5 pièces Lausanne, Avenue Vinet 18 58 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/gerance-robert-crot-cie-256/agreable-logement-1551047",
+      "title": "New CHF 2'000.-/mois (+200.- charges) Appartement 4 pièces Lausanne, Av. de Morges 90 87 m 2 4",
+      "price_chf": 2000.0,
+      "postal_code": null,
+      "card_text": "New CHF 2'000.-/mois (+200.- charges) Appartement 4 pièces Lausanne, Av. de Morges 90 87 m 2 4"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/helvetia-assurances-gerance-immobiliere-lausanne-1222/cherchez-vous-logement-cente-ville-proche-chauderon-1551347",
+      "title": "New CHF 1'730.-/mois (+260.- charges) Appartement 2 pièces Lausanne, Avenue de France 38 60 m 2 2",
+      "price_chf": 1730.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'730.-/mois (+260.- charges) Appartement 2 pièces Lausanne, Avenue de France 38 60 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/appartement-4-pieces-3eme-etage-proche-centre-ville-1551351",
+      "title": "New CHF 2'245.-/mois (+240.- charges) Appartement 4 pièces Lausanne, Av. de Morges 39 91 m 2 4",
+      "price_chf": 2245.0,
+      "postal_code": null,
+      "card_text": "New CHF 2'245.-/mois (+240.- charges) Appartement 4 pièces Lausanne, Av. de Morges 39 91 m 2 4"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/bernard-nicod-lausanne-benjamin-constant-gerance-2200/bel-appartement-2-pieces-ecrin-verdure-1551377",
+      "title": "New CHF 1'490.-/mois (+150.- charges) Appartement 2 pièces Lausanne, Avenue de Severy 19 49 m 2 2",
+      "price_chf": 1490.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'490.-/mois (+150.- charges) Appartement 2 pièces Lausanne, Avenue de Severy 19 49 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/room-estate-1443/coliving-moderne-entre-lac-ville-lausanne-1552253",
+      "title": "New CHF 1'290.-/mois Chambre 1 pièce Lausanne, Avenue de France 19 m 2 1",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "card_text": "New CHF 1'290.-/mois Chambre 1 pièce Lausanne, Avenue de France 19 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regie-duboux-lausanne-279/appartement-25-pieces-2eme-etage-1527660",
+      "title": "CHF 1'375.-/mois (+130.- charges) Appartement 2.5 pièces Lausanne, Chemin du Recordon 3 55 m 2 2.5",
+      "price_chf": 1375.0,
+      "postal_code": null,
+      "card_text": "CHF 1'375.-/mois (+130.- charges) Appartement 2.5 pièces Lausanne, Chemin du Recordon 3 55 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/room-estate-1443/coliving-moderne-entre-lac-ville-lausanne-1532544",
+      "title": "CHF 1'090.-/mois Chambre 1 pièce Lausanne, Avenue de France 14 m 2 1",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "card_text": "CHF 1'090.-/mois Chambre 1 pièce Lausanne, Avenue de France 14 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/galland-cie-254/appartement-35-pieces-centre-ville-lausanne-1533498",
+      "title": "CHF 1'900.-/mois (+180.- charges) Appartement 3.5 pièces Lausanne, Rue du Maupas 42 B 68 m 2 3.5",
+      "price_chf": 1900.0,
+      "postal_code": null,
+      "card_text": "CHF 1'900.-/mois (+180.- charges) Appartement 3.5 pièces Lausanne, Rue du Maupas 42 B 68 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/prestim-2639/lausanne-avenue-morges-74-joli-1-piece-etudiant-e-1534590",
+      "title": "CHF 870.-/mois Appartement 1 pièce Lausanne, Avenue de Morges 74 1",
+      "price_chf": 870.0,
+      "postal_code": null,
+      "card_text": "CHF 870.-/mois Appartement 1 pièce Lausanne, Avenue de Morges 74 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/myhome-immobilier-jcm-517/spacieux-35-pieces-louer-avenue-echallens-1490982",
+      "title": "CHF 2'500.-/mois (+290.- charges) Appartement 3.5 pièces Lausanne, Avenue d'Echallens 62 98 m 2 3.5",
+      "price_chf": 2500.0,
+      "postal_code": null,
+      "card_text": "CHF 2'500.-/mois (+290.- charges) Appartement 3.5 pièces Lausanne, Avenue d'Echallens 62 98 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/prestim-2639/lausanne-avenue-morges-74-joli-1-piece-etudiant-e-1534610",
+      "title": "CHF 950.-/mois Appartement 1 pièce Lausanne, Avenue de Morges 74 1 1 1",
+      "price_chf": 950.0,
+      "postal_code": null,
+      "card_text": "CHF 950.-/mois Appartement 1 pièce Lausanne, Avenue de Morges 74 1 1 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/prestim-2639/lausanne-avenue-morges-76-appartement-35-pieces-1534636",
+      "title": "CHF 1'850.-/mois Appartement 3.5 pièces Lausanne, Av. de Morges 76 3.5",
+      "price_chf": 1850.0,
+      "postal_code": null,
+      "card_text": "CHF 1'850.-/mois Appartement 3.5 pièces Lausanne, Av. de Morges 76 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/room-estate-1443/penthouse-collocation-centre-lausanne-1535388",
+      "title": "CHF 1'190.-/mois Chambre 1 pièce Lausanne, Rue du Maupas 12 m 2 1",
+      "price_chf": 1190.0,
+      "postal_code": null,
+      "card_text": "CHF 1'190.-/mois Chambre 1 pièce Lausanne, Rue du Maupas 12 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/recemment-renove-centre-ville-1492502",
+      "title": "CHF 1'600.-/mois (+170.- charges) Appartement 2 pièces Lausanne, Rue des Echelettes 11 51 m 2 2",
+      "price_chf": 1600.0,
+      "postal_code": null,
+      "card_text": "CHF 1'600.-/mois (+170.- charges) Appartement 2 pièces Lausanne, Rue des Echelettes 11 51 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/gerofinance-regie-rhone-geneve-44/joli-studio-3eme-etage-30m2-1536580",
+      "title": "CHF 1'021.-/mois (+105.- charges) Studio 1 pièce Lausanne, Rue de la Tour 3 30 m 2 1",
+      "price_chf": 1021.0,
+      "postal_code": null,
+      "card_text": "CHF 1'021.-/mois (+105.- charges) Studio 1 pièce Lausanne, Rue de la Tour 3 30 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regimo-lausanne-865/louer-sans-caution-chambre-etudiant-proche-flon-1213471",
+      "title": "CHF 965.-/mois Appartement meublé 1 pièce Lausanne, Rue de Genève 75 12 m 2 1",
+      "price_chf": 965.0,
+      "postal_code": null,
+      "card_text": "CHF 965.-/mois Appartement meublé 1 pièce Lausanne, Rue de Genève 75 12 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/cogestim-lausanne-237/magnifique-appartement-55-pieces-11eme-etage-1546043",
+      "title": "CHF 2'980.-/mois (+230.- charges) Appartement 5.5 pièces Lausanne, Ch. de Pierrefleur 54 128 m 2 4 2 5.5",
+      "price_chf": 2980.0,
+      "postal_code": null,
+      "card_text": "CHF 2'980.-/mois (+230.- charges) Appartement 5.5 pièces Lausanne, Ch. de Pierrefleur 54 128 m 2 4 2 5.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/vue-lac-1497351",
+      "title": "CHF 2'180.-/mois (+310.- charges) Appartement 3 pièces Lausanne, Av. de Morges 9 78 m 2 3",
+      "price_chf": 2180.0,
+      "postal_code": null,
+      "card_text": "CHF 2'180.-/mois (+310.- charges) Appartement 3 pièces Lausanne, Av. de Morges 9 78 m 2 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/appartement-2-pieces-1004-lausanne-1505435",
+      "title": "CHF 1'295.-/mois (+145.- charges) Appartement 2 pièces Lausanne, Ch. de Champrilly 27 45 m 2 2",
+      "price_chf": 1295.0,
+      "postal_code": null,
+      "card_text": "CHF 1'295.-/mois (+145.- charges) Appartement 2 pièces Lausanne, Ch. de Champrilly 27 45 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rham-location-residentielle-787/joli-studio-proche-centre-lausanne-1549200",
+      "title": "CHF 886.-/mois (+90.- charges) Appartement 1 pièce Lausanne, Chemin des Rosiers 4 16 m 2 1",
+      "price_chf": 886.0,
+      "postal_code": null,
+      "card_text": "CHF 886.-/mois (+90.- charges) Appartement 1 pièce Lausanne, Chemin des Rosiers 4 16 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/gerim-259/2-pieces-5-minutes-chauderon-1546435",
+      "title": "CHF 1'750.-/mois (+160.- charges) Dernier étage 2 pièces Lausanne, Avenue de Morges 13 64 m 2 1 1 2",
+      "price_chf": 1750.0,
+      "postal_code": null,
+      "card_text": "CHF 1'750.-/mois (+160.- charges) Dernier étage 2 pièces Lausanne, Avenue de Morges 13 64 m 2 1 1 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/logement-famililal-cdd-31032028-1444555",
+      "title": "CHF 2'120.-/mois (+370.- charges) Appartement 4.5 pièces Lausanne, Chemin de Pierrefleur 70 101 m 2 4.5",
+      "price_chf": 2120.0,
+      "postal_code": null,
+      "card_text": "CHF 2'120.-/mois (+370.- charges) Appartement 4.5 pièces Lausanne, Chemin de Pierrefleur 70 101 m 2 4.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rilsa-288/appartement-25-pieces-2eme-etage-1534419",
+      "title": "CHF 1'760.-/mois (+217.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévelin 13F 65 m 2 2.5",
+      "price_chf": 1760.0,
+      "postal_code": null,
+      "card_text": "CHF 1'760.-/mois (+217.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévelin 13F 65 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/room-estate-1443/espace-coliving-moderne-quartier-vivant-maupas-lausanne-1535359",
+      "title": "CHF 1'290.-/mois Chambre 1 pièce Lausanne, Rue du Maupas 18 m 2 1",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "card_text": "CHF 1'290.-/mois Chambre 1 pièce Lausanne, Rue du Maupas 18 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/bernard-nicod-lausanne-gare-gerance-2201/charmant-25-pieces-centre-ville-1537200",
+      "title": "CHF 1'550.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévery 8 47 m 2 2.5",
+      "price_chf": 1550.0,
+      "postal_code": null,
+      "card_text": "CHF 1'550.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévery 8 47 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/gerofinance-regie-rhone-geneve-44/bel-appartement-35-pieces-rez-superieur-1541242",
+      "title": "CHF 2'063.-/mois (+350.- charges) Appartement 3.5 pièces Lausanne, Chemin des Noisetiers 13 80 m 2 3.5",
+      "price_chf": 2063.0,
+      "postal_code": null,
+      "card_text": "CHF 2'063.-/mois (+350.- charges) Appartement 3.5 pièces Lausanne, Chemin des Noisetiers 13 80 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/room-estate-1443/lakeside-coliving-haven-lavenue-france-lausanne-1542840",
+      "title": "CHF 1'290.-/mois Appartement Lausanne, Avenue de France 18 m 2",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "card_text": "CHF 1'290.-/mois Appartement Lausanne, Avenue de France 18 m 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regie-privee-1300/magnifique-triplex-grand-jardin-centre-lausanne-1522419",
+      "title": "CHF 6'000.-/mois (+540.- charges) Appartement 6.5 pièces Lausanne, Avenue de France 62 4 3 6.5",
+      "price_chf": 6000.0,
+      "postal_code": null,
+      "card_text": "CHF 6'000.-/mois (+540.- charges) Appartement 6.5 pièces Lausanne, Avenue de France 62 4 3 6.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/cpcl-caisse-pensions-personnel-communal-lausanne-2630/charmant-2-pieces-2eme-etage-1536269",
+      "title": "CHF 1'650.-/mois (+130.- charges) Appartement Lausanne, Rue Ecole-de-Commerce 3 65 m 2",
+      "price_chf": 1650.0,
+      "postal_code": null,
+      "card_text": "CHF 1'650.-/mois (+130.- charges) Appartement Lausanne, Rue Ecole-de-Commerce 3 65 m 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/zivag-gerances-293/appartement-35-pieces-terrasse-privative-1er-loyer-offert-858302",
+      "title": "CHF 2'200.-/mois (+200.- charges) Appartement 3.5 pièces Lausanne, Rue St-Roch 40 96 m 2 3.5",
+      "price_chf": 2200.0,
+      "postal_code": null,
+      "card_text": "CHF 2'200.-/mois (+200.- charges) Appartement 3.5 pièces Lausanne, Rue St-Roch 40 96 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/galland-cie-254/appartement-3-pieces-3eme-etage-1537358",
+      "title": "CHF 1'750.-/mois (+140.- charges) Appartement 3 pièces Lausanne, Avenue d'Echallens 70 70 m 2 3",
+      "price_chf": 1750.0,
+      "postal_code": null,
+      "card_text": "CHF 1'750.-/mois (+140.- charges) Appartement 3 pièces Lausanne, Avenue d'Echallens 70 70 m 2 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/golay-immobilier-260/bel-appartement-renove-35-pieces-4e-etage-env-74-1540985",
+      "title": "CHF 1'790.-/mois (+210.- charges) Appartement 3.5 pièces Lausanne, Avenue Vinet 20 74 m 2 3.5",
+      "price_chf": 1790.0,
+      "postal_code": null,
+      "card_text": "CHF 1'790.-/mois (+210.- charges) Appartement 3.5 pièces Lausanne, Avenue Vinet 20 74 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rosset-immobilier-geneve-vaud-fribourg-siege-social-46/louer-superbe-appartement-duplex-45-pieces-2eme-sous-sol-1515825",
+      "title": "CHF 2'920.-/mois (+250.- charges) Appartement 4.5 pièces Lausanne, Avenue de Morges 145B 101 m 2 4.5",
+      "price_chf": 2920.0,
+      "postal_code": null,
+      "card_text": "CHF 2'920.-/mois (+250.- charges) Appartement 4.5 pièces Lausanne, Avenue de Morges 145B 101 m 2 4.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/gerofinance-regie-rhone-geneve-44/bel-appartement-situe-quartier-calme-proche-palais-beaulieu-55-pieces-idealement-situe-266189",
+      "title": "CHF 2'450.-/mois (+250.- charges) Appartement 5 pièces Lausanne, Avenue Collonges 11 92 m 2 5",
+      "price_chf": 2450.0,
+      "postal_code": null,
+      "card_text": "CHF 2'450.-/mois (+250.- charges) Appartement 5 pièces Lausanne, Avenue Collonges 11 92 m 2 5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rilsa-288/appartement-35-pces-vue-lac-1549195",
+      "title": "CHF 1'800.-/mois (+200.- charges) Appartement 3 pièces Lausanne, Chemin de Boston 3 3",
+      "price_chf": 1800.0,
+      "postal_code": null,
+      "card_text": "CHF 1'800.-/mois (+200.- charges) Appartement 3 pièces Lausanne, Chemin de Boston 3 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/betterhomes-schweiz-ag-611/meilleur-lausanne-vos-pieds-1541918",
+      "title": "CHF 2'034.-/mois (+250.- charges) Appartement meublé 3 pièces 1004 Lausanne, Contactez l'agence pour l'adresse 52 m 2 3",
+      "price_chf": 2034.0,
+      "postal_code": "1004",
+      "card_text": "CHF 2'034.-/mois (+250.- charges) Appartement meublé 3 pièces 1004 Lausanne, Contactez l'agence pour l'adresse 52 m 2 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/prestim-2639/lausanne-avenue-morges-76-joli-3-pieces-1541385",
+      "title": "CHF 1'850.-/mois Appartement 3.5 pièces Lausanne, Avenue de Morges 76 2 1 3.5",
+      "price_chf": 1850.0,
+      "postal_code": null,
+      "card_text": "CHF 1'850.-/mois Appartement 3.5 pièces Lausanne, Avenue de Morges 76 2 1 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regimo-lausanne-865/louer-sans-caution-logement-proche-quartier-flon-1160459",
+      "title": "CHF 1'430.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Rue de Genève 75 55 m 2 2.5",
+      "price_chf": 1430.0,
+      "postal_code": null,
+      "card_text": "CHF 1'430.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Rue de Genève 75 55 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/misa-immobilier-268/appartement-35-pcs-lausanne-1525791",
+      "title": "CHF 2'050.-/mois (+160.- charges) Appartement 3.5 pièces Lausanne, Chemin de Pierrefleur 13 77 m 2 2 3.5",
+      "price_chf": 2050.0,
+      "postal_code": null,
+      "card_text": "CHF 2'050.-/mois (+160.- charges) Appartement 3.5 pièces Lausanne, Chemin de Pierrefleur 13 77 m 2 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rilsa-288/appartement-25-pieces-mezzanine-lausanne-1496582",
+      "title": "CHF 2'142.-/mois (+210.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévelin 15 62 m 2 2.5",
+      "price_chf": 2142.0,
+      "postal_code": null,
+      "card_text": "CHF 2'142.-/mois (+210.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévelin 15 62 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/logement-proximite-centre-ville-petite-terrasse-1545665",
+      "title": "CHF 1'590.-/mois (+160.- charges) Appartement 2 pièces Lausanne, Rte de Prilly 7 52 m 2 2",
+      "price_chf": 1590.0,
+      "postal_code": null,
+      "card_text": "CHF 1'590.-/mois (+160.- charges) Appartement 2 pièces Lausanne, Rte de Prilly 7 52 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/privera-lausanne-972/saisir-splendide-studio-coeur-lausanne-1542952",
+      "title": "CHF 1'095.-/mois (+80.- charges) Appartement 1 pièce Lausanne, Avenue de Collonges 5 26 m 2 1",
+      "price_chf": 1095.0,
+      "postal_code": null,
+      "card_text": "CHF 1'095.-/mois (+80.- charges) Appartement 1 pièce Lausanne, Avenue de Collonges 5 26 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/helvetia-assurances-gerance-immobiliere-lausanne-1222/appartement-3-pieces-1004-lausanne-984052",
+      "title": "CHF 2'120.-/mois (+320.- charges) Appartement 3.5 pièces Lausanne, Rue Clos-de-Bulle 8 73 m 2 3.5",
+      "price_chf": 2120.0,
+      "postal_code": null,
+      "card_text": "CHF 2'120.-/mois (+320.- charges) Appartement 3.5 pièces Lausanne, Rue Clos-de-Bulle 8 73 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/appartement-magnifique-vue-centre-ville-1513743",
+      "title": "CHF 1'460.-/mois (+230.- charges) Appartement 2 pièces Lausanne, Rue Pré-du-Marché 23 45 m 2 2",
+      "price_chf": 1460.0,
+      "postal_code": null,
+      "card_text": "CHF 1'460.-/mois (+230.- charges) Appartement 2 pièces Lausanne, Rue Pré-du-Marché 23 45 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/gerim-259/charmant-appartement-3-pieces-idealement-situe-avenue-france-23-lausanne-1519954",
+      "title": "CHF 2'375.-/mois (+220.- charges) Appartement 3 pièces Lausanne, Avenue de France 23 2 1 3",
+      "price_chf": 2375.0,
+      "postal_code": null,
+      "card_text": "CHF 2'375.-/mois (+220.- charges) Appartement 3 pièces Lausanne, Avenue de France 23 2 1 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/votre-cocoon-familial-1547279",
+      "title": "CHF 2'147.-/mois (+425.- charges) Appartement 4.5 pièces Lausanne, Avenue du Grey 38 98 m 2 4.5",
+      "price_chf": 2147.0,
+      "postal_code": null,
+      "card_text": "CHF 2'147.-/mois (+425.- charges) Appartement 4.5 pièces Lausanne, Avenue du Grey 38 98 m 2 4.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/charmant-1-piece-lumineux-cdd-31122026-764129",
+      "title": "CHF 952.-/mois (+125.- charges) Appartement 1 pièce Lausanne, Avenue de Collonges 9 32 m 2 1",
+      "price_chf": 952.0,
+      "postal_code": null,
+      "card_text": "CHF 952.-/mois (+125.- charges) Appartement 1 pièce Lausanne, Avenue de Collonges 9 32 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regimo-lausanne-865/chambres-meublees-etudiant-proche-flon-student-home-736575",
+      "title": "CHF 965.-/mois Appartement meublé 1 pièce Lausanne, Rue de Genève 75 12 m 2 1",
+      "price_chf": 965.0,
+      "postal_code": null,
+      "card_text": "CHF 965.-/mois Appartement meublé 1 pièce Lausanne, Rue de Genève 75 12 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/bernard-nicod-lausanne-gare-gerance-2201/appartement-25-pieces-centre-lausanne-1495576",
+      "title": "CHF 2'300.-/mois (+100.- charges) Appartement 2.5 pièces Lausanne, Chemin de Porchat 26 70 m 2 2.5",
+      "price_chf": 2300.0,
+      "postal_code": null,
+      "card_text": "CHF 2'300.-/mois (+100.- charges) Appartement 2.5 pièces Lausanne, Chemin de Porchat 26 70 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/cpcl-caisse-pensions-personnel-communal-lausanne-2630/charmant-studio-1541392",
+      "title": "CHF 1'120.-/mois (+140.- charges) Appartement 1 pièce Lausanne, Rue Ecole-de-Commerce 3 40 m 2 1",
+      "price_chf": 1120.0,
+      "postal_code": null,
+      "card_text": "CHF 1'120.-/mois (+140.- charges) Appartement 1 pièce Lausanne, Rue Ecole-de-Commerce 3 40 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/comptoir-immobilier-lausanne-239/appartement-4-pieces-poste-concierge-1548339",
+      "title": "CHF 1'750.-/mois Appartement 4 pièces Lausanne, Avenue Alexandre-Vinet 6 80 m 2 4",
+      "price_chf": 1750.0,
+      "postal_code": null,
+      "card_text": "CHF 1'750.-/mois Appartement 4 pièces Lausanne, Avenue Alexandre-Vinet 6 80 m 2 4"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/bel-appartement-vue-lac-1548891",
+      "title": "CHF 1'403.-/mois (+265.- charges) Appartement 2.5 pièces Lausanne, Avenue du Grey 22 63 m 2 2.5",
+      "price_chf": 1403.0,
+      "postal_code": null,
+      "card_text": "CHF 1'403.-/mois (+265.- charges) Appartement 2.5 pièces Lausanne, Avenue du Grey 22 63 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/room-estate-1443/vivez-coliving-confortable-cur-lausanne-1542820",
+      "title": "CHF 1'190.-/mois Chambre 1 pièce Lausanne, Avenue de France 13 m 2 1",
+      "price_chf": 1190.0,
+      "postal_code": null,
+      "card_text": "CHF 1'190.-/mois Chambre 1 pièce Lausanne, Avenue de France 13 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rs-servim-sarl-2395/charmant-appartement-35-pieces-balcon-1547190",
+      "title": "CHF 1'800.-/mois (+200.- charges) Appartement Lausanne, Chemin de Fontannaz 4",
+      "price_chf": 1800.0,
+      "postal_code": null,
+      "card_text": "CHF 1'800.-/mois (+200.- charges) Appartement Lausanne, Chemin de Fontannaz 4"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rham-location-residentielle-787/appartement-2-pieces-centre-ville-856914",
+      "title": "CHF 1'520.-/mois (+140.- charges) Appartement 2 pièces Lausanne, Rue St-Roch 21 50 m 2 2",
+      "price_chf": 1520.0,
+      "postal_code": null,
+      "card_text": "CHF 1'520.-/mois (+140.- charges) Appartement 2 pièces Lausanne, Rue St-Roch 21 50 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/retraites-populaires-1429/appartement-790951",
+      "title": "CHF 750.-/mois (+60.- charges) Attique 1 pièce Lausanne, Avenue Collonges 12 bis 18 m 2 1",
+      "price_chf": 750.0,
+      "postal_code": null,
+      "card_text": "CHF 750.-/mois (+60.- charges) Attique 1 pièce Lausanne, Avenue Collonges 12 bis 18 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/galland-cie-254/appartement-4-pieces-rez-superieur-1533529",
+      "title": "CHF 2'350.-/mois (+220.- charges) Appartement 4 pièces Lausanne, Chemin du Risoux 17 84 m 2 4",
+      "price_chf": 2350.0,
+      "postal_code": null,
+      "card_text": "CHF 2'350.-/mois (+220.- charges) Appartement 4 pièces Lausanne, Chemin du Risoux 17 84 m 2 4"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rudin-immobilier-sarl-1061/appartement-2eme-etage-coeur-lausanne-1521091",
+      "title": "CHF 3'250.-/mois (+250.- charges) Appartement 4.5 pièces Lausanne, Chemin des Retraites 11 118 m 2 4.5",
+      "price_chf": 3250.0,
+      "postal_code": null,
+      "card_text": "CHF 3'250.-/mois (+250.- charges) Appartement 4.5 pièces Lausanne, Chemin des Retraites 11 118 m 2 4.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/globe-plan-cie-1082/lot-408-15-pieces-4eme-etage-1438927",
+      "title": "CHF 1'900.-/mois Appartement meublé 1.5 pièces Lausanne, Rue du Clos-de-Bulle 5 1.5",
+      "price_chf": 1900.0,
+      "postal_code": null,
+      "card_text": "CHF 1'900.-/mois Appartement meublé 1.5 pièces Lausanne, Rue du Clos-de-Bulle 5 1.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/rham-location-residentielle-787/joli-2-pieces-rafraichi-lausanne-1538106",
+      "title": "CHF 1'325.-/mois (+215.- charges) Appartement 2 pièces Lausanne, Chemin des Rosiers 2 35 m 2 2",
+      "price_chf": 1325.0,
+      "postal_code": null,
+      "card_text": "CHF 1'325.-/mois (+215.- charges) Appartement 2 pièces Lausanne, Chemin des Rosiers 2 35 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/bernard-nicod-lausanne-gare-gerance-2201/charmant-25-pieces-centre-ville-1542134",
+      "title": "CHF 1'400.-/mois (+210.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévery 16 49 m 2 2.5",
+      "price_chf": 1400.0,
+      "postal_code": null,
+      "card_text": "CHF 1'400.-/mois (+210.- charges) Appartement 2.5 pièces Lausanne, Avenue de Sévery 16 49 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/wincasa-siege-602/bel-appartement-louer-quartier-calme-verdoyant-103578",
+      "title": "CHF 1'870.-/mois (+100.- charges) Appartement 3 pièces Lausanne, Ch. de Pierrefleur 32 77 m 2 3",
+      "price_chf": 1870.0,
+      "postal_code": null,
+      "card_text": "CHF 1'870.-/mois (+100.- charges) Appartement 3 pièces Lausanne, Ch. de Pierrefleur 32 77 m 2 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/magnifique-2-pieces-proximite-centre-ville-1499954",
+      "title": "CHF 1'580.-/mois (+175.- charges) Appartement 2 pièces Lausanne, Rte de Prilly 9 53 m 2 2",
+      "price_chf": 1580.0,
+      "postal_code": null,
+      "card_text": "CHF 1'580.-/mois (+175.- charges) Appartement 2 pièces Lausanne, Rte de Prilly 9 53 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/spg-locations-generales-490/bel-appartement-lausanne-1544850",
+      "title": "CHF 1'650.-/mois Appartement 2 pièces Lausanne, Avenue de France 47 51 m 2 1 2",
+      "price_chf": 1650.0,
+      "postal_code": null,
+      "card_text": "CHF 1'650.-/mois Appartement 2 pièces Lausanne, Avenue de France 47 51 m 2 1 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/helvetia-assurances-gerance-immobiliere-lausanne-1222/cherchez-vous-logement-centre-ville-1545642",
+      "title": "CHF 1'540.-/mois (+190.- charges) Appartement 2 pièces Lausanne, Rue Clos-de-Bulle 10 53 m 2 2",
+      "price_chf": 1540.0,
+      "postal_code": null,
+      "card_text": "CHF 1'540.-/mois (+190.- charges) Appartement 2 pièces Lausanne, Rue Clos-de-Bulle 10 53 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/appartement-parfait-vous-1416058",
+      "title": "CHF 2'745.-/mois (+435.- charges) Appartement 3.5 pièces Lausanne, Avenue d'Echallens 61 106 m 2 3.5",
+      "price_chf": 2745.0,
+      "postal_code": null,
+      "card_text": "CHF 2'745.-/mois (+435.- charges) Appartement 3.5 pièces Lausanne, Avenue d'Echallens 61 106 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/cogestim-lausanne-237/bel-appartement-35-pieces-rez-chaussee-1544047",
+      "title": "CHF 2'200.-/mois (+230.- charges) Appartement 3.5 pièces Lausanne, Ch. de Pierrefleur 1 82 m 2 2 2 3.5",
+      "price_chf": 2200.0,
+      "postal_code": null,
+      "card_text": "CHF 2'200.-/mois (+230.- charges) Appartement 3.5 pièces Lausanne, Ch. de Pierrefleur 1 82 m 2 2 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/livit-ag-real-estate-management-675/les-hauteurs-ville-1545592",
+      "title": "CHF 1'870.-/mois (+370.- charges) Appartement 3.5 pièces Lausanne, Avenue du Grey 20 87 m 2 3.5",
+      "price_chf": 1870.0,
+      "postal_code": null,
+      "card_text": "CHF 1'870.-/mois (+370.- charges) Appartement 3.5 pièces Lausanne, Avenue du Grey 20 87 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/naef-immobilier-lausanne-bureaux-administratifs-269/opportunite-rare-vue-lac-exceptionnelle-1548722",
+      "title": "CHF 2'900.-/mois (+250.- charges) Appartement 5 pièces Lausanne, Chemin de Pierrefleur 22 124 m 2 5",
+      "price_chf": 2900.0,
+      "postal_code": null,
+      "card_text": "CHF 2'900.-/mois (+250.- charges) Appartement 5 pièces Lausanne, Chemin de Pierrefleur 22 124 m 2 5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/aurlau-2474/beau-25-pieces-balcon-lausanne-1549332",
+      "title": "CHF 1'400.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Chemin de boisy 36 2.5",
+      "price_chf": 1400.0,
+      "postal_code": null,
+      "card_text": "CHF 1'400.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Chemin de boisy 36 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regimo-lausanne-865/chambres-meublees-etudiant-proche-flon-student-home-736582",
+      "title": "CHF 965.-/mois Appartement meublé 1 pièce Lausanne, Rue de Genève 75 12 m 2 1",
+      "price_chf": 965.0,
+      "postal_code": null,
+      "card_text": "CHF 965.-/mois Appartement meublé 1 pièce Lausanne, Rue de Genève 75 12 m 2 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/bel-appartement-centre-ville-1346332",
+      "title": "CHF 2'070.-/mois (+200.- charges) Appartement 3 pièces Lausanne, Av. de Morges 7 66 m 2 3",
+      "price_chf": 2070.0,
+      "postal_code": null,
+      "card_text": "CHF 2'070.-/mois (+200.- charges) Appartement 3 pièces Lausanne, Av. de Morges 7 66 m 2 3"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/bernard-nicod-lausanne-gare-gerance-2201/charmant-appartement-2-pieces-lausanne-1125327",
+      "title": "CHF 1'560.-/mois (+190.- charges) Appartement 2 pièces Lausanne, Chemin de Renens 11 50 m 2 2",
+      "price_chf": 1560.0,
+      "postal_code": null,
+      "card_text": "CHF 1'560.-/mois (+190.- charges) Appartement 2 pièces Lausanne, Chemin de Renens 11 50 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/appartement-2-pieces-proche-palais-beaulieu-1354027",
+      "title": "CHF 1'440.-/mois (+220.- charges) Appartement 2 pièces Lausanne, Ch. des Aubépines 4bis 57 m 2 2",
+      "price_chf": 1440.0,
+      "postal_code": null,
+      "card_text": "CHF 1'440.-/mois (+220.- charges) Appartement 2 pièces Lausanne, Ch. des Aubépines 4bis 57 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/prestim-2639/lausanne-avenue-morges-74-1-piece-balcon-etudiant-e-1537331",
+      "title": "CHF 950.-/mois Appartement 1 pièce Lausanne, Avenue de Morges 74 1",
+      "price_chf": 950.0,
+      "postal_code": null,
+      "card_text": "CHF 950.-/mois Appartement 1 pièce Lausanne, Avenue de Morges 74 1"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/naef-immobilier-lausanne-bureaux-administratifs-269/appartement-charmant-25-pces-aux-combles-1313481",
+      "title": "CHF 2'125.-/mois (+120.- charges) Appartement 2.5 pièces Lausanne, Chemin de Montétan 19 86 m 2 1 2.5",
+      "price_chf": 2125.0,
+      "postal_code": null,
+      "card_text": "CHF 2'125.-/mois (+120.- charges) Appartement 2.5 pièces Lausanne, Chemin de Montétan 19 86 m 2 1 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regie-braun-276/appartement-35-pieces-1540951",
+      "title": "CHF 1'591.-/mois (+295.- charges) Appartement 3.5 pièces Lausanne, Chemin des Aubépines 5 64 m 2 3.5",
+      "price_chf": 1591.0,
+      "postal_code": null,
+      "card_text": "CHF 1'591.-/mois (+295.- charges) Appartement 3.5 pièces Lausanne, Chemin des Aubépines 5 64 m 2 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/prestim-2639/couple-concierges-lausanne-avenue-morges-74-joli-35-p-1530497",
+      "title": "CHF 1'775.-/mois Appartement 3.5 pièces Lausanne, Avenue de Morges 74 3.5",
+      "price_chf": 1775.0,
+      "postal_code": null,
+      "card_text": "CHF 1'775.-/mois Appartement 3.5 pièces Lausanne, Avenue de Morges 74 3.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/galland-cie-254/charmant-appartement-5-pieces-balcons-immeuble-caractere-1547291",
+      "title": "CHF 2'500.-/mois (+450.- charges) Appartement 5 pièces Lausanne, Rue Pré-du-Marché 34 111 m 2 5",
+      "price_chf": 2500.0,
+      "postal_code": null,
+      "card_text": "CHF 2'500.-/mois (+450.- charges) Appartement 5 pièces Lausanne, Rue Pré-du-Marché 34 111 m 2 5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/quartier-beaulieu-joli-appartement-2-pieces-1480198",
+      "title": "CHF 1'735.-/mois (+160.- charges) Appartement 2 pièces Lausanne, Av. de Beaulieu 26 46 m 2 2",
+      "price_chf": 1735.0,
+      "postal_code": null,
+      "card_text": "CHF 1'735.-/mois (+160.- charges) Appartement 2 pièces Lausanne, Av. de Beaulieu 26 46 m 2 2"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/regimo-lausanne-865/louer-sans-caution-appartement-urbain-moderne-1532987",
+      "title": "CHF 1'380.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Rue de Genève 75 46 m 2 2.5",
+      "price_chf": 1380.0,
+      "postal_code": null,
+      "card_text": "CHF 1'380.-/mois (+150.- charges) Appartement 2.5 pièces Lausanne, Rue de Genève 75 46 m 2 2.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/wincasa-siege-602/bel-appartement-45-pieces-4-etage-avenue-grey-48-lausanne-1548853",
+      "title": "CHF 2'240.-/mois (+270.- charges) Appartement 4.5 pièces Lausanne, Av. du Grey 48 87 m 2 4.5",
+      "price_chf": 2240.0,
+      "postal_code": null,
+      "card_text": "CHF 2'240.-/mois (+270.- charges) Appartement 4.5 pièces Lausanne, Av. du Grey 48 87 m 2 4.5"
+    },
+    {
+      "url": "https://www.immobilier.ch/fr/louer/appartement/vaud/lausanne/apleona-schweiz-ag-670/appartement-moderne-centre-ville-1483168",
+      "title": "CHF 1'645.-/mois (+180.- charges) Appartement 2 pièces Lausanne, Rue des Echelettes 11 55 m 2 2",
+      "price_chf": 1645.0,
+      "postal_code": null,
+      "card_text": "CHF 1'645.-/mois (+180.- charges) Appartement 2 pièces Lausanne, Rue des Echelettes 11 55 m 2 2"
+    }
+  ]
+}

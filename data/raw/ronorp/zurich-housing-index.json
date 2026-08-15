@@ -1,0 +1,614 @@
+{
+  "source": "ronorp",
+  "area": "zurich",
+  "source_url": "https://ronorp.net/zurich-en/market/housing",
+  "fetched_at": "2026-08-12T14:14:41.126785+00:00",
+  "count": 121,
+  "listings": [
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-3-wiedikon-furnished-temporary-15",
+      "link_text": "CHF 2'640.00 / Monthly 3.5 Zürich",
+      "price_chf": 2640.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-freienbach-sz-furnished-temporary-2",
+      "link_text": "CHF 2'990.00 / Monthly 2.5 Freienbach",
+      "price_chf": 2990.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-9-altstetten-furnished-temporary-14",
+      "link_text": "CHF 2'990.00 / Monthly 2.5 Zürich",
+      "price_chf": 2990.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/1-room-apartment-in-seuzach-zh-furnished-temporary-1",
+      "link_text": "CHF 1'994.00 / Monthly 1.5 Seuzach",
+      "price_chf": 1994.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-5-furnished-temporary-9",
+      "link_text": "CHF 4'020.00 / Monthly 4.0 Zürich",
+      "price_chf": 4020.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-4-furnished-temporary-6",
+      "link_text": "CHF 2'350.00 / Monthly 2.5 Zürich",
+      "price_chf": 2350.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/super-lux-nice-attic-flatshare-2-of-us-total-near-albisriederplatz-zurich-chf-1380month-50-utilities-move-in-1st-sept-or-19th-aug-viewings-wed-12th-thu-13th-aug-this-week-just-complete-doodle-cheers-big-ears",
+      "link_text": "OFFER CHF 1'380.00 3 Badenerstrasse 356, 8004 Zürich",
+      "price_chf": 1380.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-attic-apartment-in-zurich-kreis-10-furnished-temporary",
+      "link_text": "CHF 2'490.00 / Monthly 2.5 Zürich",
+      "price_chf": 2490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-lenzburg-ag-furnished-temporary-1",
+      "link_text": "CHF 3'000.00 / Monthly 3.5 Lenzburg",
+      "price_chf": 3000.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-wetzikon-zh-furnished-temporary-1",
+      "link_text": "CHF 2'625.00 / Monthly 3.5 Wetzikon ZH",
+      "price_chf": 2625.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-10-hongg-furnished-temporary-8",
+      "link_text": "CHF 2'700.00 / Monthly 3.5 Zürich",
+      "price_chf": 2700.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-schoftland-ag-furnished-temporary",
+      "link_text": "CHF 2'438.00 / Monthly 3.5 Schöftland",
+      "price_chf": 2438.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/for-an-individual-in-wadenswil-zh-furnished-temporary-1",
+      "link_text": "CHF 1'500.00 / Monthly 2.5 Wädenswil",
+      "price_chf": 1500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/open-bright-25br-apartment-in-seefeld-from-1-sept-5min-from-chinagarten-massive-rooftop-chf-2850-incl-nk",
+      "link_text": "OFFER CHF 2'850.00 Wildbachstrasse, 8008 Zürich",
+      "price_chf": 2850.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-attic-apartment-penthouse-in-baden-ag-furnished-temporary-64",
+      "link_text": "CHF 2'750.00 / Monthly 2.5 Baden",
+      "price_chf": 2750.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-hinwil-zh-furnished-temporary-7",
+      "link_text": "CHF 2'940.00 / Monthly 3.5 Hinwil",
+      "price_chf": 2940.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-2-wollishofen-furnished-temporary-5",
+      "link_text": "CHF 3'600.00 / Monthly 2.5 Zürich",
+      "price_chf": 3600.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-wadenswil-zh-furnished-temporary-1",
+      "link_text": "CHF 2'301.00 / Monthly 3.5 Wädenswil",
+      "price_chf": 2301.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-wiedikon",
+      "link_text": "OFFER CHF 2'690.00 2 Höfliweg 9, 8055 Zürich",
+      "price_chf": 2690.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-dubendorf-zh-furnished-temporary-5",
+      "link_text": "CHF 2'499.00 / Monthly 2.5 Dübendorf",
+      "price_chf": 2499.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-wetzikon-zh-furnished-temporary-1",
+      "link_text": "CHF 2'490.00 / Monthly 2.5 Wetzikon ZH",
+      "price_chf": 2490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/7-room-house-in-richterswil-zh-furnished-temporary-1",
+      "link_text": "CHF 7'500.00 / Monthly 7.0 Richterswil",
+      "price_chf": 7500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/bright-1br-with-2-balconies-kreis-4-parquet-fully-furnished-rooftop-views-2208-30092026",
+      "link_text": "OFFER CHF 1'600.00 2.5",
+      "price_chf": 1600.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-stafa-zh-furnished-temporary-4",
+      "link_text": "CHF 1'500.00 / Monthly 2.0 Stäfa",
+      "price_chf": 1500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-4-furnished-temporary-8",
+      "link_text": "CHF 4'350.00 / Monthly 3.5 Zurich",
+      "price_chf": 4350.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-2-furnished-temporary-7",
+      "link_text": "CHF 2'874.00 / Monthly 2.5 Zurich",
+      "price_chf": 2874.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/shared-room-in-luxury-duplex-next-to-letzipark",
+      "link_text": "OFFER CHF 1'750.00 3.5 Buckhauserstrasse 1",
+      "price_chf": 1750.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-kloten-zh-furnished-temporary-6",
+      "link_text": "CHF 2'258.00 / Monthly 3.5 Kloten",
+      "price_chf": 2258.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-5-furnished-temporary-2",
+      "link_text": "CHF 625.00 / daily 2.5 Zürich",
+      "price_chf": 625.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-schlieren-zh-furnished-temporary-1",
+      "link_text": "CHF 2'948.00 / Monthly 3.5 Schlieren",
+      "price_chf": 2948.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/furnished-apartment-for-sublease-6-months-zurich-city-center-wiedikon-district",
+      "link_text": "OFFER CHF 2'300.00 2.5",
+      "price_chf": 2300.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/part-time-flatshare-near-zurich-anyone-interested",
+      "link_text": "OFFER CHF 800.00 2",
+      "price_chf": 800.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-apartment-in-wadenswil-zh-furnished-temporary",
+      "link_text": "CHF 4'800.00 / Monthly 5.5 Wädenswil",
+      "price_chf": 4800.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-4-furnished-temporary-7",
+      "link_text": "CHF 3'125.00 / Monthly 3.5 Zürich",
+      "price_chf": 3125.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-oberrieden-zh-furnished-3",
+      "link_text": "CHF 3'480.00 / Monthly 3.5 Oberrieden",
+      "price_chf": 3480.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-adliswil-zh-furnished-temporary-3",
+      "link_text": "CHF 1'740.00 / Monthly 2.5 Adliswil",
+      "price_chf": 1740.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-kreuzlingen-tg-furnished-temporary-2",
+      "link_text": "CHF 1'620.00 / Monthly 2.5 Kreuzlingen",
+      "price_chf": 1620.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-kloten-zh-furnished-temporary-5",
+      "link_text": "CHF 3'360.00 / Monthly 3.5 Kloten",
+      "price_chf": 3360.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/altbau-bijou-an-der-josefstrasse-zur-untermiete-1-vom-hb-zurich-1",
+      "link_text": "OFFER CHF 1'900.00 2.5 Josefstrasse, 8005 Zürich, Schweiz",
+      "price_chf": 1900.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-8-seefeldmuhlebach-furnished-temporary-3",
+      "link_text": "CHF 4'490.00 / Monthly 2.5 Zürich",
+      "price_chf": 4490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/master-student-uzh-looking-for-1-room-apartement-studio",
+      "link_text": "WANTED CHF 1'100.00",
+      "price_chf": 1100.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-12-hirzenbach-furnished-temporary-1",
+      "link_text": "CHF 3'250.00 / Monthly 3.5 Zürich",
+      "price_chf": 3250.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-steckborn-tg-furnished-9",
+      "link_text": "CHF 1'788.00 / Monthly 2.0 Steckborn",
+      "price_chf": 1788.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/stylish-furnished-25-room-apartment-68-m2-two-private-balconies-prime-location-in-zurich-8004",
+      "link_text": "OFFER CHF 2'980.00 2.5",
+      "price_chf": 2980.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/helle-und-geraumige-55-zimmer-duplexwohnung-in-watt-nahe-der-natur-und-nur-15-min-vom-zh-hb-entfernt",
+      "link_text": "OFFER CHF 3'531.00 More than 5 Dorfstrasse, 8105 Regensdorf",
+      "price_chf": 3531.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-dietikon-zh-furnished-temporary-12",
+      "link_text": "CHF 2'490.00 / Monthly 3.5 Dietikon",
+      "price_chf": 2490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/individual-only-in-altendorf-sz-furnished-temporary-1",
+      "link_text": "CHF 1'452.00 / Monthly 1.0 Altendorf",
+      "price_chf": 1452.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-maisonette-apartment-in-zurich-kreis-10-wipkingen-furnished-temporary",
+      "link_text": "CHF 4'536.00 / Monthly 3.5 Zürich",
+      "price_chf": 4536.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-winterthur-stadt-furnished-temporary-5",
+      "link_text": "CHF 3'600.00 / Monthly 4.5 Winterthur",
+      "price_chf": 3600.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-house-in-winterthur-toss-furnished-temporary-10",
+      "link_text": "CHF 3'125.00 / Monthly 5.0 Winterthur",
+      "price_chf": 3125.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-1-niederdorf-furnished",
+      "link_text": "CHF 2'640.00 / Monthly 2.0 Zurich",
+      "price_chf": 2640.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-jona-sg-furnished-temporary",
+      "link_text": "CHF 1'313.00 / Monthly 2.0 Jona",
+      "price_chf": 1313.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-winterthur-wulflingen-furnished-temporary-2",
+      "link_text": "CHF 2'250.00 / Monthly 2.5 Winterthur",
+      "price_chf": 2250.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-3-sihlfeld-furnished-temporary-2",
+      "link_text": "CHF 2'640.00 / Monthly 3.5 Zürich",
+      "price_chf": 2640.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-7-fluntern-furnished-temporary-6",
+      "link_text": "CHF 3'600.00 / Monthly 4.0 Zürich",
+      "price_chf": 3600.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-oberengstringen-zh-furnished-temporary-nov26-mar27",
+      "link_text": "OFFER CHF 2'000.00 3.5 Oberengstringen",
+      "price_chf": 2000.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/studio-in-remetschwil-ag-furnished-temporary-6",
+      "link_text": "CHF 1'999.00 / Monthly 1.5 Remetschwil",
+      "price_chf": 1999.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-steckborn-tg-furnished-temporary-1",
+      "link_text": "CHF 1'488.00 / Monthly 3.5 Steckborn",
+      "price_chf": 1488.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/short-term-rental-in-central-location-kreis-4-charming-flat-2-rooms",
+      "link_text": "OFFER CHF 3'000.00 2",
+      "price_chf": 3000.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/35-room-apartment-in-zurich-kreis-11-sublet-2-august-11-august-2026-700-chf",
+      "link_text": "OFFER CHF 700.00 3.5",
+      "price_chf": 700.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-veltheim-ag-furnished-temporary-1",
+      "link_text": "CHF 1'925.00 / Monthly 4.5 Veltheim AG",
+      "price_chf": 1925.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-5-furnished-temporary-8",
+      "link_text": "CHF 4'980.00 / Monthly 4.5 Zürich",
+      "price_chf": 4980.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-3-furnished-temporary-7",
+      "link_text": "CHF 3'376.00 / Monthly 2.5 Zürich",
+      "price_chf": 3376.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-monchaltorf-zh-furnished-temporary",
+      "link_text": "CHF 2'904.00 / Monthly 3.0 Mönchaltorf",
+      "price_chf": 2904.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-maisonette-apartment-in-berikon-ag-furnished-temporary-5",
+      "link_text": "CHF 2'940.00 / Monthly 5.5 Berikon",
+      "price_chf": 2940.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-winterthur-wulflingen-furnished-temporary-1",
+      "link_text": "CHF 3'500.00 / Monthly 4.5 Winterthur",
+      "price_chf": 3500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-7-hottingen-furnished-temporary-9",
+      "link_text": "CHF 3'240.00 / Monthly 3.5 Zürich",
+      "price_chf": 3240.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-11-oerlikon-furnished-temporary-11",
+      "link_text": "CHF 2'628.00 / Monthly 2.5 Zürich",
+      "price_chf": 2628.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-zurich-kreis-11-furnished-temporary-5",
+      "link_text": "CHF 2'760.00 / Monthly 2.5 Zürich",
+      "price_chf": 2760.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/looking-for-wg",
+      "link_text": "WANTED CHF 1'200.00 1",
+      "price_chf": 1200.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-6-furnished-temporary-17",
+      "link_text": "CHF 3'914.00 / Monthly 3.5 Zurich",
+      "price_chf": 3914.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-schneisingen-ag-furnished-temporary-51",
+      "link_text": "CHF 2'400.00 / Monthly 3.5 Schneisingen",
+      "price_chf": 2400.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-10-hongg-furnished-temporary-4",
+      "link_text": "CHF 4'499.00 / Monthly 4.5 Zürich",
+      "price_chf": 4499.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-altendorf-sz-furnished-temporary-1",
+      "link_text": "CHF 2'438.00 / Monthly 2.5 Altendorf",
+      "price_chf": 2438.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-fehraltorf-zh-furnished-temporary-2",
+      "link_text": "CHF 2'125.00 / Monthly 3.5 Fehraltorf",
+      "price_chf": 2125.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-11-affoltern-furnished-temporary-2",
+      "link_text": "CHF 2'124.00 / Monthly 3.5 Zürich",
+      "price_chf": 2124.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/loft-in-zurich-zh-furnished-temporary-2",
+      "link_text": "CHF 3'300.00 / Monthly 1.0 Zurich",
+      "price_chf": 3300.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-3-furnished-temporary-10",
+      "link_text": "CHF 2'640.00 / Monthly 3.0 Zürich",
+      "price_chf": 2640.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-berlingen-tg-furnished-temporary-4",
+      "link_text": "CHF 1'500.00 / Monthly 2.0 Berlingen",
+      "price_chf": 1500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-kreuzlingen-tg-furnished-temporary-1",
+      "link_text": "CHF 2'490.00 / Monthly 3.5 Kreuzlingen",
+      "price_chf": 2490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-baden-ag-furnished-temporary-10",
+      "link_text": "CHF 2'995.00 / Monthly 3.5 Baden",
+      "price_chf": 2995.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-house-in-uetikon-am-see-zh-furnished-temporary",
+      "link_text": "CHF 4'800.00 / Monthly 5.5 Uetikon am See",
+      "price_chf": 4800.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-bachenbulach-zh-furnished-temporary-5",
+      "link_text": "CHF 4'490.00 / Monthly 4.5 Bachenbülach",
+      "price_chf": 4490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-bachenbulach-zh-furnished-temporary-4",
+      "link_text": "CHF 4'490.00 / Monthly 4.5 Bachenbülach",
+      "price_chf": 4490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-maisonette-apartment-in-siggenthal-station-ag-furnished-temporary",
+      "link_text": "CHF 2'225.00 / Monthly 5.5 Siggenthal Station",
+      "price_chf": 2225.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-5-escher-wyss-furnished-temporary-4",
+      "link_text": "CHF 3'120.00 / Monthly 3.0 Zürich",
+      "price_chf": 3120.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-schafisheim-ag-furnished-temporary-1",
+      "link_text": "CHF 3'660.00 / Monthly 4.0 Schafisheim",
+      "price_chf": 3660.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-oberengstringen-zh-furnished-temporary-1",
+      "link_text": "CHF 1'990.00 / Monthly 2.0 Oberengstringen",
+      "price_chf": 1990.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-12-furnished-temporary",
+      "link_text": "CHF 2'388.00 / Monthly 4.5 Zürich",
+      "price_chf": 2388.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-horgen-zh-furnished-1",
+      "link_text": "CHF 4'908.00 / Monthly 4.5 Horgen",
+      "price_chf": 4908.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-rickenbach-sulz-zh-furnished-temporary-5",
+      "link_text": "CHF 2'148.00 / Monthly 3.0 Rickenbach Sulz",
+      "price_chf": 2148.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-maisonette-apartment-in-watt-zh-furnished-temporary",
+      "link_text": "CHF 2'188.00 / Monthly 2.5 Watt",
+      "price_chf": 2188.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/6-room-house-in-bassersdorf-zh-furnished-temporary-1",
+      "link_text": "CHF 4'740.00 / Monthly 6.5 Bassersdorf",
+      "price_chf": 4740.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-winterthur-oberwinterthur-furnished-temporary-2",
+      "link_text": "CHF 2'450.00 / Monthly 2.5 Winterthur",
+      "price_chf": 2450.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-winterthur-furnished-temporary-2",
+      "link_text": "CHF 2'298.00 / Monthly 3.5 Winterthur",
+      "price_chf": 2298.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/1-room-apartment-in-zurich-kreis-3-furnished-temporary-2",
+      "link_text": "CHF 2'124.00 / Monthly 1.5 Zürich",
+      "price_chf": 2124.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/1-room-apartment-in-reichenburg-sz-furnished-13",
+      "link_text": "CHF 1'680.00 / Monthly 1.0 Reichenburg",
+      "price_chf": 1680.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-10-hongg-furnished-temporary-3",
+      "link_text": "CHF 3'875.00 / Monthly 4.5 Zürich",
+      "price_chf": 3875.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-winterthur-stadt-furnished-temporary-2",
+      "link_text": "CHF 2'514.00 / Monthly 2.5 Winterthur",
+      "price_chf": 2514.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-wurenlos-ag-furnished-temporary",
+      "link_text": "CHF 2'490.00 / Monthly 3.5 Würenlos",
+      "price_chf": 2490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-attic-apartment-penthouse-in-zurich-kreis-2-enge-furnished-temporary-1",
+      "link_text": "CHF 4'200.00 / Monthly 3.5 Zürich",
+      "price_chf": 4200.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-house-in-unterengstringen-zh-furnished-temporary-2",
+      "link_text": "CHF 4'950.00 / Monthly 5.5 Unterengstringen",
+      "price_chf": 4950.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/6-room-house-in-oberwil-lieli-ag-furnished-temporary-1",
+      "link_text": "CHF 5'500.00 / Monthly 6.5 Oberwil-Lieli",
+      "price_chf": 5500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-apartment-in-winterthur-stadt-furnished-temporary",
+      "link_text": "CHF 3'624.00 / Monthly 5.5 Winterthur",
+      "price_chf": 3624.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-mannedorf-zh-furnished-temporary-2",
+      "link_text": "CHF 2'813.00 / Monthly 2.5 Männedorf",
+      "price_chf": 2813.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-neuhausen-am-rheinfall-sh-furnished-temporary-1",
+      "link_text": "CHF 2'000.00 / Monthly 2.5 Neuhausen am Rheinfall",
+      "price_chf": 2000.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-zurich-kreis-5-escher-wyss-furnished-temporary-3",
+      "link_text": "CHF 4'200.00 / Monthly 3.5 Zürich",
+      "price_chf": 4200.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-gachnang-tg-furnished-temporary-4",
+      "link_text": "CHF 3'875.00 / Monthly 4.5 Gachnang",
+      "price_chf": 3875.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zurich-kreis-1-furnished-temporary-6",
+      "link_text": "CHF 6'490.00 / Monthly 4.5 Zürich",
+      "price_chf": 6490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-house-in-ottenbach-zh-furnished-27",
+      "link_text": "CHF 6'250.00 / Monthly 5.5 Ottenbach",
+      "price_chf": 6250.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-apartment-in-volketswil-zh-furnished-46",
+      "link_text": "CHF 4'950.00 / Monthly 5.5 Volketswil",
+      "price_chf": 4950.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-zollikon-zh-furnished-temporary-113",
+      "link_text": "CHF 5'850.00 / Monthly 4.5 Zollikon",
+      "price_chf": 5850.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/4-room-apartment-in-gruningen-zh-furnished-temporary-1",
+      "link_text": "CHF 3'300.00 / Monthly 4.5 Grüningen",
+      "price_chf": 3300.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/5-room-house-in-wetzikon-zh-furnished-temporary",
+      "link_text": "CHF 4'500.00 / Monthly 5.5 Wetzikon ZH",
+      "price_chf": 4500.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/3-room-apartment-in-gebenstorf-ag-furnished-temporary",
+      "link_text": "CHF 2'400.00 / Monthly 3.5 Gebenstorf",
+      "price_chf": 2400.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-attic-apartment-in-dielsdorf-zh-furnished-temporary",
+      "link_text": "CHF 2'490.00 / Monthly 2.5 Dielsdorf",
+      "price_chf": 2490.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/1-room-apartment-in-reichenburg-sz-furnished-12",
+      "link_text": "CHF 1'680.00 / Monthly 1.0 Reichenburg",
+      "price_chf": 1680.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/2-room-apartment-in-muri-ag-furnished-temporary-3",
+      "link_text": "CHF 2'340.00 / Monthly 2.5 Muri AG",
+      "price_chf": 2340.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/sea-view-duplex-apartment-in-san-sebastian",
+      "link_text": "OFFER CHF 5'000.00 3 Paseo del Faro 59, 20008 Donostia / San Sebastián, Gipuzkoa, España",
+      "price_chf": 5000.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/370-m2-apartment-with-separate-wellness-area",
+      "link_text": "OFFER CHF 5'000.00 4.5",
+      "price_chf": 5000.0
+    },
+    {
+      "url": "https://ronorp.net/market/posts/art-design-apartment-close-to-kunsthaus-excellent-for-expats-temporary-rental",
+      "link_text": "OFFER CHF 3'950.00 3.5 Minervastrasse, 8032 Zürich",
+      "price_chf": 3950.0
+    }
+  ]
+}

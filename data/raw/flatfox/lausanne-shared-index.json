@@ -1,0 +1,489 @@
+{
+  "source": "flatfox",
+  "source_section": "lausanne_shared",
+  "source_url": "https://flatfox.ch/fr/search/?object_category=SHARED&offer_type=RENT&query=Lausanne",
+  "collected_at": "2026-08-15T08:33:27.372497+00:00",
+  "count": 48,
+  "listings": [
+    {
+      "source": "flatfox",
+      "source_id": "86143976",
+      "url": "https://flatfox.ch/fr/flat/rue-de-lausanne-49-1020-renens/86143976",
+      "title": "Location 870 CHF",
+      "price_chf": 870.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 870 CHF Chambre en colocation 1020 Renens"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86146743",
+      "url": "https://flatfox.ch/fr/flat/1018-lausanne/86146743",
+      "title": "Location 750 CHF Meublé",
+      "price_chf": 750.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 750 CHF Meublé Chambre en colocation 1018 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86149976",
+      "url": "https://flatfox.ch/fr/flat/1024-ecublens-vd/86149976",
+      "title": "Location 1’200 CHF TemporaireMeublé",
+      "price_chf": 1200.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’200 CHF TemporaireMeublé Chambre en colocation 1024 Ecublens VD"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86157050",
+      "url": "https://flatfox.ch/fr/flat/1018-lausanne/86157050",
+      "title": "Location 1’000 CHF Meublé",
+      "price_chf": 1000.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’000 CHF Meublé Chambre en colocation 1018 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86172051",
+      "url": "https://flatfox.ch/fr/flat/rue-saint-francois-1005-lausanne/86172051",
+      "title": "Location 1’298 CHF",
+      "price_chf": 1298.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’298 CHF Chambre en colocation 1005 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86172937",
+      "url": "https://flatfox.ch/fr/flat/route-du-mont-1-1008-prilly/86172937",
+      "title": "Location 1’150 CHF",
+      "price_chf": 1150.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’150 CHF Chambre en colocation 1008 Prilly"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86173422",
+      "url": "https://flatfox.ch/fr/flat/chemin-de-la-chaumiere-6-1010-lausanne/86173422",
+      "title": "Location 1’100 CHF Meublé",
+      "price_chf": 1100.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’100 CHF Meublé Chambre en colocation 1010 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86176110",
+      "url": "https://flatfox.ch/fr/flat/avenue-frederic-cesar-de-la-harpe-45-1007-lausanne/86176110",
+      "title": "Location 850 CHF Meublé",
+      "price_chf": 850.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 850 CHF Meublé Chambre en colocation 1007 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86180782",
+      "url": "https://flatfox.ch/fr/flat/avenue-du-tir-federal-17-1024-ecublens/86180782",
+      "title": "Location 873 CHF Meublé",
+      "price_chf": 873.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 873 CHF Meublé Chambre en colocation 1024 Ecublens"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86193420",
+      "url": "https://flatfox.ch/fr/flat/avenue-guillemin-6-1009-pully/86193420",
+      "title": "Location 990 CHF Meublé",
+      "price_chf": 990.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 990 CHF Meublé Chambre en colocation 1009 Pully"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86202799",
+      "url": "https://flatfox.ch/fr/flat/chemin-du-croset-10-1024-ecublens-vd/86202799",
+      "title": "Location 850 CHF",
+      "price_chf": 850.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 850 CHF Chambre en colocation 1024 Ecublens VD"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86202882",
+      "url": "https://flatfox.ch/fr/flat/route-du-signal-12-1018-lausanne/86202882",
+      "title": "Location 790 CHF Meublé",
+      "price_chf": 790.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 790 CHF Meublé Chambre en colocation 1018 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86205018",
+      "url": "https://flatfox.ch/fr/flat/route-aloys-fauquez-23-1018-lausanne/86205018",
+      "title": "Location 1’140 CHF Meublé",
+      "price_chf": 1140.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’140 CHF Meublé Chambre en colocation 1018 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86212811",
+      "url": "https://flatfox.ch/fr/flat/chemin-des-noisetiers-3-1004-lausanne/86212811",
+      "title": "Location 990 CHF Meublé",
+      "price_chf": 990.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 990 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86214586",
+      "url": "https://flatfox.ch/fr/flat/rue-antoinette-quinche-2-1022-chavannes-pres-renen/86214586",
+      "title": "Location 1’100 CHF Meublé",
+      "price_chf": 1100.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’100 CHF Meublé Chambre en colocation 1022 Chavannes Pres Renens"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86216532",
+      "url": "https://flatfox.ch/fr/flat/1004-lausanne/86216532",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86216585",
+      "url": "https://flatfox.ch/fr/flat/1004-lausanne/86216585",
+      "title": "Location 1’190 CHF Meublé",
+      "price_chf": 1190.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’190 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86216666",
+      "url": "https://flatfox.ch/fr/flat/1008-prilly/86216666",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1008 Prilly"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86216708",
+      "url": "https://flatfox.ch/fr/flat/1004-lausanne/86216708",
+      "title": "Location 1’290 CHF Meublé",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’290 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86218966",
+      "url": "https://flatfox.ch/fr/flat/rue-de-geneve-77-1004-lausanne/86218966",
+      "title": "Location 967 CHF",
+      "price_chf": 967.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 967 CHF Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86220330",
+      "url": "https://flatfox.ch/fr/flat/1006-lausanne/86220330",
+      "title": "Location 990 CHF Meublé",
+      "price_chf": 990.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 990 CHF Meublé Chambre en colocation 1006 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86220342",
+      "url": "https://flatfox.ch/fr/flat/1007-lausanne/86220342",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1007 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86221708",
+      "url": "https://flatfox.ch/fr/flat/1007-lausanne/86221708",
+      "title": "Location 1’220 CHF Meublé",
+      "price_chf": 1220.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’220 CHF Meublé Chambre en colocation 1007 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86222981",
+      "url": "https://flatfox.ch/fr/flat/route-aloys-fauquez-23-1018-lausanne/86222981",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1018 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86223231",
+      "url": "https://flatfox.ch/fr/flat/chemin-des-champs-meunier-7e-1052-le-mont-sur-laus/86223231",
+      "title": "Location 990 CHF",
+      "price_chf": 990.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 990 CHF Chambre en colocation 1052 - Le Mont-sur-Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86223352",
+      "url": "https://flatfox.ch/fr/flat/1020-renens/86223352",
+      "title": "Location 1’590 CHF Meublé",
+      "price_chf": 1590.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’590 CHF Meublé Chambre en colocation 1020 Renens"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86223399",
+      "url": "https://flatfox.ch/fr/flat/1023-crissier/86223399",
+      "title": "Location 1’290 CHF Meublé",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’290 CHF Meublé Chambre en colocation 1023 Crissier"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86223413",
+      "url": "https://flatfox.ch/fr/flat/1003-lausanne/86223413",
+      "title": "Location 990 CHF Meublé",
+      "price_chf": 990.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 990 CHF Meublé Chambre en colocation 1003 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86223469",
+      "url": "https://flatfox.ch/fr/flat/marc-dufour-1007-lausanne/86223469",
+      "title": "Location 1’100 CHF Meublé",
+      "price_chf": 1100.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’100 CHF Meublé Chambre en colocation 1007 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86223744",
+      "url": "https://flatfox.ch/fr/flat/chemin-du-rionzi-45-1052-le-monts-sur-lausanne/86223744",
+      "title": "Location 990 CHF Meublé",
+      "price_chf": 990.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 990 CHF Meublé Chambre en colocation 1052 Le Monts Sur Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86226691",
+      "url": "https://flatfox.ch/fr/flat/1023-crissier/86226691",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1023 Crissier"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86229273",
+      "url": "https://flatfox.ch/fr/flat/1004-lausanne/86229273",
+      "title": "Location 1’290 CHF Meublé",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’290 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86229467",
+      "url": "https://flatfox.ch/fr/flat/1007-lausanne/86229467",
+      "title": "Location 1’290 CHF Meublé",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’290 CHF Meublé Chambre en colocation 1007 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86236035",
+      "url": "https://flatfox.ch/fr/flat/avenue-de-sevelin-13c-1004-lausanne/86236035",
+      "title": "Location 850 CHF Temporaire",
+      "price_chf": 850.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 850 CHF Temporaire Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86236173",
+      "url": "https://flatfox.ch/fr/flat/1018-lausanne-avenue-1018-lausanne/86236173",
+      "title": "Location 1’000 CHF",
+      "price_chf": 1000.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’000 CHF Chambre en colocation 1018 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86240535",
+      "url": "https://flatfox.ch/fr/flat/chemin-des-plateires-22-1009-pully/86240535",
+      "title": "Location 1’430 CHF Meublé",
+      "price_chf": 1430.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’430 CHF Meublé Chambre en colocation 1009 Pully"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86249066",
+      "url": "https://flatfox.ch/fr/flat/rue-de-bassenges-3a-1024-ecublens-vd/86249066",
+      "title": "Location 1’161 CHF",
+      "price_chf": 1161.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’161 CHF Chambre en colocation 1024 Ecublens VD"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86250346",
+      "url": "https://flatfox.ch/fr/flat/av-de-cour-1007-lausanne/86250346",
+      "title": "Location 995 CHF Meublé",
+      "price_chf": 995.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 995 CHF Meublé Chambre en colocation 1007 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86254101",
+      "url": "https://flatfox.ch/fr/flat/1004-lausanne/86254101",
+      "title": "Location 970 CHF TemporaireMeublé",
+      "price_chf": 970.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 970 CHF TemporaireMeublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86254782",
+      "url": "https://flatfox.ch/fr/flat/chemin-des-champs-meunier-7e-1052-le-mont-sur-laus/86254782",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1052 Le Mont-sur-Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86258766",
+      "url": "https://flatfox.ch/fr/flat/chem-des-plateires-22-1009-pully/86258766",
+      "title": "Location 1’390 CHF Meublé",
+      "price_chf": 1390.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’390 CHF Meublé Chambre en colocation 1009 Pully"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86266443",
+      "url": "https://flatfox.ch/fr/flat/1012-lausanne/86266443",
+      "title": "Location 1’190 CHF Meublé",
+      "price_chf": 1190.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’190 CHF Meublé Chambre en colocation 1012 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86268402",
+      "url": "https://flatfox.ch/fr/flat/avenue-de-chailly-1-1012-lausanne/86268402",
+      "title": "Location 1’190 CHF Meublé",
+      "price_chf": 1190.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’190 CHF Meublé Chambre en colocation 1012 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86270115",
+      "url": "https://flatfox.ch/fr/flat/chemin-des-retraites-11-1004-lausanne/86270115",
+      "title": "Location 1’250 CHF Meublé",
+      "price_chf": 1250.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’250 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86270330",
+      "url": "https://flatfox.ch/fr/flat/1004-lausanne/86270330",
+      "title": "Location 1’290 CHF Meublé",
+      "price_chf": 1290.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’290 CHF Meublé Chambre en colocation 1004 Lausanne"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86270437",
+      "url": "https://flatfox.ch/fr/flat/1022-chavannes-pres-renens/86270437",
+      "title": "Location 1’490 CHF Meublé",
+      "price_chf": 1490.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’490 CHF Meublé Chambre en colocation 1022 Chavannes-près-Renens"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86272821",
+      "url": "https://flatfox.ch/fr/flat/1023-crissier/86272821",
+      "title": "Location 1’090 CHF Meublé",
+      "price_chf": 1090.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 1’090 CHF Meublé Chambre en colocation 1023 Crissier"
+    },
+    {
+      "source": "flatfox",
+      "source_id": "86273888",
+      "url": "https://flatfox.ch/fr/flat/avenue-des-baumettes-72b-1020-renens/86273888",
+      "title": "Location 800 CHF Meublé",
+      "price_chf": 800.0,
+      "postal_code": null,
+      "city": null,
+      "card_text": "Location 800 CHF Meublé Chambre en colocation 1020 Renens"
+    }
+  ]
+}

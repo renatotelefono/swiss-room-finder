@@ -1,0 +1,170 @@
+# ============================================================
+# Swiss Room Finder
+# ============================================================
+
+
+# ============================================================
+# Python
+# ============================================================
+
+.venv/
+venv/
+env/
+
+__pycache__/
+**/__pycache__/
+
+*.py[cod]
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ============================================================
+# Node.js / Vite
+# ============================================================
+
+frontend/node_modules/
+frontend/dist/
+
+node_modules/
+dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================
+# Scraping debug files
+# ============================================================
+
+# Directory di debug generate dai collector
+data/raw/**/debug/
+data/raw/**/errors/
+
+# HTML / immagini / testo di debug
+data/raw/**/*-debug.*
+data/raw/**/*-rendered.*
+
+# File usati esclusivamente come probe
+data/raw/**/*probe*
+
+
+# ============================================================
+# Geocoding cache e backup temporanei
+# ============================================================
+
+data/geocoded/*cache*.json
+data/geocoded/*before-fix*.json
+
+
+# ============================================================
+# Playwright
+# ============================================================
+
+playwright-report/
+test-results/
+blob-report/
+
+
+# ============================================================
+# Environment variables / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+
+# ============================================================
+# VS Code / IDE
+# ============================================================
+
+.vscode/
+.idea/
+
+*.code-workspace
+
+
+# ============================================================
+# Windows / macOS
+# ============================================================
+
+Thumbs.db
+desktop.ini
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+
+
+# ============================================================
+# Temporary / backup files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# Python packaging
+# ============================================================
+
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ============================================================
+# IMPORTANT
+# ============================================================
+
+# NON ignoriamo:
+#
+# data/final/
+# data/processed/
+# data/normalized/
+# data/geocoded/*-geocoded.json
+# data/raw/*/*-index.json
+# frontend/public/data/
+# ingestion/
+# VERSION
+# CHANGELOG.md
+#
+# Questi file fanno parte della versione riproducibile
+# di Swiss Room Finder.
