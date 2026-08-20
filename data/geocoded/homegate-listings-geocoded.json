@@ -1,0 +1,3113 @@
+{
+  "source": "homegate",
+  "source_section": "lausanne",
+  "input_count": 62,
+  "geocoded": 62,
+  "failed": 0,
+  "precision": {
+    "source_exact": 26,
+    "source_approximate": 36
+  },
+  "listings": [
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003347353",
+      "source_url": "https://www.homegate.ch/louer/4003347353",
+      "title": "Chambre meublée à Lausanne /Furnished Room in Central Lausanne",
+      "price": {
+        "monthly": 1100,
+        "net": 1000,
+        "charges": 100,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Avenue Marc-Dufour 31",
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.518894934411,
+        "longitude": 6.617291155478,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003351849",
+      "source_url": "https://www.homegate.ch/louer/4003351849",
+      "title": "Penthouse en collocation au centre de Lausanne",
+      "price": {
+        "monthly": 1190,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue du Maupas",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.530726933419,
+        "longitude": 6.616551154478,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": 6,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003401905",
+      "source_url": "https://www.homegate.ch/louer/4003401905",
+      "title": "Un Appartement Coliving Moderne à l'Avenue de France à Lausanne",
+      "price": {
+        "monthly": 1290,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.525714930418,
+        "longitude": 6.621521157476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 25,
+        "floor": 2,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003382152",
+      "source_url": "https://www.homegate.ch/louer/4003382152",
+      "title": "Coliving Moderne entre le Lac et la Ville à Lausanne",
+      "price": {
+        "monthly": 1290,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.525714930418,
+        "longitude": 6.621521157476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 19,
+        "floor": 2,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003378434",
+      "source_url": "https://www.homegate.ch/louer/4003378434",
+      "title": "Coliving Moderne entre Nature et Ville à Lausanne-Béthusy",
+      "price": {
+        "monthly": 1190,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1012",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.525174936414,
+        "longitude": 6.649501154478,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 15,
+        "floor": 1,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003351891",
+      "source_url": "https://www.homegate.ch/louer/4003351891",
+      "title": "Confort et Communauté à Lausanne",
+      "price": {
+        "monthly": 1190,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.528723934412,
+        "longitude": 6.620281154471,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": 3,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003349624",
+      "source_url": "https://www.homegate.ch/louer/4003349624",
+      "title": "Vue dégagée au centre de Lausanne",
+      "price": {
+        "monthly": 1190,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.521156933419,
+        "longitude": 6.617751156472,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 18,
+        "floor": 6,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003349613",
+      "source_url": "https://www.homegate.ch/louer/4003349613",
+      "title": "Vue dégagée au centre de Lausanne",
+      "price": {
+        "monthly": 1290,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.521134937415,
+        "longitude": 6.617981154477,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 24,
+        "floor": 4,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003349443",
+      "source_url": "https://www.homegate.ch/louer/4003349443",
+      "title": "Un espace de coliving moderne dans le quartier vivant de Maupas à Laus",
+      "price": {
+        "monthly": 1290,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.524744937415,
+        "longitude": 6.626361150476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 17,
+        "floor": 5,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003366475",
+      "source_url": "https://www.homegate.ch/louer/4003366475",
+      "title": "Chambre à louer à 15 minutes à pied du centre de Lausanne",
+      "price": {
+        "monthly": 700,
+        "net": 700,
+        "charges": 0,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue des Jardins 7",
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.530129934412,
+        "longitude": 6.630311156479,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": 1,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003393200",
+      "source_url": "https://www.homegate.ch/louer/4003393200",
+      "title": "Chambre idéale pour les étudiants",
+      "price": {
+        "monthly": 660,
+        "net": 600,
+        "charges": 60,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Av. du Mont d'Or 35",
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.516565935413,
+        "longitude": 6.618391154473,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 13,
+        "floor": -1,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003373956",
+      "source_url": "https://www.homegate.ch/louer/4003373956",
+      "title": "Chambre individuelle à louer au centre-ville de Lausanne",
+      "price": {
+        "monthly": 690,
+        "net": 690,
+        "charges": 0,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue Docteur César-Roux 9",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.524817935413,
+        "longitude": 6.637871154478,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 9,
+        "floor": 1,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003359348",
+      "source_url": "https://www.homegate.ch/louer/4003359348",
+      "title": "Chambre individuelle à louer au centre-ville de Lausanne",
+      "price": {
+        "monthly": 710,
+        "net": 710,
+        "charges": 0,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue Docteur César-Roux 9",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.524817935413,
+        "longitude": 6.637871154478,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": null,
+        "size_m2": 15,
+        "floor": 1,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4002919486",
+      "source_url": "https://www.homegate.ch/louer/4002919486",
+      "title": "Chambre meuble en face EHL",
+      "price": {
+        "monthly": 1180,
+        "net": 1180,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Route de Cojonnex 35",
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.561554934412,
+        "longitude": 6.680931154479,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": 1,
+        "bathrooms": 1,
+        "size_m2": null,
+        "floor": 1,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003400185",
+      "source_url": "https://www.homegate.ch/louer/4003400185",
+      "title": "Chambre avec sdb privée à Ouchy sous-location",
+      "price": {
+        "monthly": 1500,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue du Lac 12",
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.507675936414,
+        "longitude": 6.625751154477,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 95,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003396633",
+      "source_url": "https://www.homegate.ch/louer/4003396633",
+      "title": "Sous-location à partager dans un cabinet de 47m2",
+      "price": {
+        "monthly": 520,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue du Maupas 24",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.525294938416,
+        "longitude": 6.625391157475,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 24,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003395145",
+      "source_url": "https://www.homegate.ch/louer/4003395145",
+      "title": "Chambre meublée dans les hauts de Lausanne",
+      "price": {
+        "monthly": 920,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Route de Marin 20",
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.556055930418,
+        "longitude": 6.687951154474,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003395132",
+      "source_url": "https://www.homegate.ch/louer/4003395132",
+      "title": "1 pièce meublée , app. neuf, moderne, 110m2, 3-éme étage",
+      "price": {
+        "monthly": 995,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue de la Baumettaz 5",
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.547107936414,
+        "longitude": 6.586891155476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 110,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003378496",
+      "source_url": "https://www.homegate.ch/louer/4003378496",
+      "title": "Chambre meublée en colocation",
+      "price": {
+        "monthly": 860,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "av. de Chailly 57",
+        "postal_code": "1012",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.523174936414,
+        "longitude": 6.655791154473,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 11,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003299498",
+      "source_url": "https://www.homegate.ch/louer/4003299498",
+      "title": "Colocation dans Triplex (Sdb + 2 étages privés)",
+      "price": {
+        "monthly": 2000,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue Haldimand 3",
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.522824937415,
+        "longitude": 6.631681154476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 140,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003273691",
+      "source_url": "https://www.homegate.ch/louer/4003273691",
+      "title": "Chambre meublée de haut standing Crissier - EPFL/UNIL",
+      "price": {
+        "monthly": 995,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue de la Baumettaz 5",
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.547107936414,
+        "longitude": 6.586891155476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 65,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003271151",
+      "source_url": "https://www.homegate.ch/louer/4003271151",
+      "title": "Recherche Colocataire appartement meublé",
+      "price": {
+        "monthly": 1250,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Av de sevelin 4a",
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.521614930418,
+        "longitude": 6.616801154471,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 100,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003398570",
+      "source_url": "https://www.homegate.ch/louer/4003398570",
+      "title": "Une chambre se libère à Grandvaux, vue sur le lac",
+      "price": {
+        "monthly": 1035,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Grandvaux",
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520339934412,
+        "longitude": 6.632061154476,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003398457",
+      "source_url": "https://www.homegate.ch/louer/4003398457",
+      "title": "Chambre pour 2 personnes!",
+      "price": {
+        "monthly": 450,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Ch . de . Libellule. Lausanne",
+        "postal_code": "1010",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.539904933411,
+        "longitude": 6.643791157479,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003388098",
+      "source_url": "https://www.homegate.ch/louer/4003388098",
+      "title": "Magnifique chambre meublée à quelques minutes de l'EHL",
+      "price": {
+        "monthly": 1200,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Route du Jorat",
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.564544938416,
+        "longitude": 6.693771157477,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 18,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003385933",
+      "source_url": "https://www.homegate.ch/louer/4003385933",
+      "title": "Colocation à Lausanne Prilly malley",
+      "price": {
+        "monthly": 1000,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Prilly malley",
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.526706939417,
+        "longitude": 6.602611156478,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003365132",
+      "source_url": "https://www.homegate.ch/louer/4003365132",
+      "title": "Grande chambre 25 m² avec balcon privatif en colocation",
+      "price": {
+        "monthly": 890,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Chasseron",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.531384938416,
+        "longitude": 6.613641155472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 120,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003359896",
+      "source_url": "https://www.homegate.ch/louer/4003359896",
+      "title": "Prilly Centre Chambre à louer pour étudiant",
+      "price": {
+        "monthly": 900,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Cossonay 19",
+        "postal_code": "1008",
+        "city": "Jouxtens-Mézery",
+        "country": "CH",
+        "latitude": 46.533948935413,
+        "longitude": 6.606131154472,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 11,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003358926",
+      "source_url": "https://www.homegate.ch/louer/4003358926",
+      "title": "Chambre meublée à louer au centre ville de Lausanne",
+      "price": {
+        "monthly": 990,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Lausanne centre",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520874933419,
+        "longitude": 6.641471154472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 14,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003357392",
+      "source_url": "https://www.homegate.ch/louer/4003357392",
+      "title": "Reprise de bail + chambre en colocation à Lausanne",
+      "price": {
+        "monthly": 1015,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Chemin du Levant",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.518884934412,
+        "longitude": 6.651741153474,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003341923",
+      "source_url": "https://www.homegate.ch/louer/4003341923",
+      "title": "Colocation dans grand 3.5p centre Lausanne",
+      "price": {
+        "monthly": 1100,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue de la Pontaise",
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.529914933411,
+        "longitude": 6.629991159477,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 75,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003329706",
+      "source_url": "https://www.homegate.ch/louer/4003329706",
+      "title": "Colocation sympa dans le centre de Lausanne - 15 Dec 2025",
+      "price": {
+        "monthly": 1100,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Chemin Des Trois Rois",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.518184936414,
+        "longitude": 6.639421154474,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 150,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003290592",
+      "source_url": "https://www.homegate.ch/louer/4003290592",
+      "title": "Chambre à louer Lausanne centre",
+      "price": {
+        "monthly": 890,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Av Vulliemin",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.527715936414,
+        "longitude": 6.634011154472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 63,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003270820",
+      "source_url": "https://www.homegate.ch/louer/4003270820",
+      "title": "Sous-location dune grande chambre",
+      "price": {
+        "monthly": 1086,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue de la Tour 8",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.523686935413,
+        "longitude": 6.629361154474,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 21,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003191740",
+      "source_url": "https://www.homegate.ch/louer/4003191740",
+      "title": "co-location",
+      "price": {
+        "monthly": 860,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "I AVENUE DE MORGES 41",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.526274930418,
+        "longitude": 6.613901155471,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 62,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003401370",
+      "source_url": "https://www.homegate.ch/louer/4003401370",
+      "title": "Atelier costumes et couture",
+      "price": {
+        "monthly": 350,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Lausanne",
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.534875933419,
+        "longitude": 6.630691154473,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 60,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003401368",
+      "source_url": "https://www.homegate.ch/louer/4003401368",
+      "title": "Jolie chambre meublée",
+      "price": {
+        "monthly": 500,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue Aloys-fauquez 2",
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.533027935413,
+        "longitude": 6.630471157479,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003266161",
+      "source_url": "https://www.homegate.ch/louer/4003266161",
+      "title": "Colocation à Lausanne",
+      "price": {
+        "monthly": 820,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue Saint-Roch",
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.524844933411,
+        "longitude": 6.627861157478,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 100,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003185393",
+      "source_url": "https://www.homegate.ch/louer/4003185393",
+      "title": "Super coloc",
+      "price": {
+        "monthly": 950,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Epalinges",
+        "postal_code": "1066",
+        "city": "Epalinges",
+        "country": "CH",
+        "latitude": 46.548583938416,
+        "longitude": 6.664611154477,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 106,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003402043",
+      "source_url": "https://www.homegate.ch/louer/4003402043",
+      "title": "Chambre 15m², coop. dhabitants, quartier Plaines-du-Loup",
+      "price": {
+        "monthly": 850,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.534875933419,
+        "longitude": 6.630691154473,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 15,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003389708",
+      "source_url": "https://www.homegate.ch/louer/4003389708",
+      "title": "LOGEMENT À LAUSANNE/APPARTAMENTO A LOSANNA",
+      "price": {
+        "monthly": 1,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Losanna",
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.558844933419,
+        "longitude": 6.681681154475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003382214",
+      "source_url": "https://www.homegate.ch/louer/4003382214",
+      "title": "Belle chambre meublée à Lausanne",
+      "price": {
+        "monthly": 563,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1010",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.537464939417,
+        "longitude": 6.651751154471,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003380100",
+      "source_url": "https://www.homegate.ch/louer/4003380100",
+      "title": "Studio disponible, colocation!",
+      "price": {
+        "monthly": 600,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1010",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.537464939417,
+        "longitude": 6.651751154471,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 15,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003372883",
+      "source_url": "https://www.homegate.ch/louer/4003372883",
+      "title": "Chambre à louer dans un trois pièces avec chien et chats",
+      "price": {
+        "monthly": 1000,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.534875933419,
+        "longitude": 6.630691154473,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 11,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003370164",
+      "source_url": "https://www.homegate.ch/louer/4003370164",
+      "title": "Chambre en colocation à côté du CHUV",
+      "price": {
+        "monthly": 950,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520874933419,
+        "longitude": 6.641471154472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 73,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003362561",
+      "source_url": "https://www.homegate.ch/louer/4003362561",
+      "title": "Colocation dans un appartement de 3½ pièces à Lausanne",
+      "price": {
+        "monthly": 950,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.517899937415,
+        "longitude": 6.614501154472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 76,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003323339",
+      "source_url": "https://www.homegate.ch/louer/4003323339",
+      "title": "Chambre en colocation",
+      "price": {
+        "monthly": 490,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Rue de la Barre 18",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.526064939417,
+        "longitude": 6.636001154476,
+        "precision": "source_exact",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003323134",
+      "source_url": "https://www.homegate.ch/louer/4003323134",
+      "title": "Chambre meublée à louer",
+      "price": {
+        "monthly": 1100,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1012",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.527894934411,
+        "longitude": 6.657331155477,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003323023",
+      "source_url": "https://www.homegate.ch/louer/4003323023",
+      "title": "Chambre meublée à 5 min de la gare",
+      "price": {
+        "monthly": 1300,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520994935413,
+        "longitude": 6.631681155472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 100,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003306880",
+      "source_url": "https://www.homegate.ch/louer/4003306880",
+      "title": "GRANDE CHAMBRE AU SOUS-SOL D'UNE VILLA",
+      "price": {
+        "monthly": 850,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1052",
+        "city": "Le Mont-sur-Lausanne",
+        "country": "CH",
+        "latitude": 46.554245933411,
+        "longitude": 6.633191154477,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 20,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003297067",
+      "source_url": "https://www.homegate.ch/louer/4003297067",
+      "title": "Chambre dans super coloc <3",
+      "price": {
+        "monthly": 700,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.530140937415,
+        "longitude": 6.618101158477,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 200,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003401376",
+      "source_url": "https://www.homegate.ch/louer/4003401376",
+      "title": "Chambre",
+      "price": {
+        "monthly": 900,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520339934412,
+        "longitude": 6.632061154476,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 20,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003399671",
+      "source_url": "https://www.homegate.ch/louer/4003399671",
+      "title": "Chambre à Louer",
+      "price": {
+        "monthly": 990,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Lausanne",
+        "postal_code": "1005",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520874933419,
+        "longitude": 6.641471154472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003395135",
+      "source_url": "https://www.homegate.ch/louer/4003395135",
+      "title": "URGENT CHERCHE UNE CHAMBRE A LOUER",
+      "price": {
+        "monthly": 500,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Lausanne",
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.558844933419,
+        "longitude": 6.681681154475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 16,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003383081",
+      "source_url": "https://www.homegate.ch/louer/4003383081",
+      "title": "Alugo quarto",
+      "price": {
+        "monthly": 750,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Chemin des bossons",
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.537494937415,
+        "longitude": 6.620701154473,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003379880",
+      "source_url": "https://www.homegate.ch/louer/4003379880",
+      "title": "Chambre à louer - Centre de Lausanne",
+      "price": {
+        "monthly": 850,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1018",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.534875933419,
+        "longitude": 6.630691154473,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003339215",
+      "source_url": "https://www.homegate.ch/louer/4003339215",
+      "title": "Chambre à louer au 1er août au centre-ville - pour une femme",
+      "price": {
+        "monthly": 1090,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.558844933419,
+        "longitude": 6.681681154475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 12,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003328616",
+      "source_url": "https://www.homegate.ch/louer/4003328616",
+      "title": "Chambre",
+      "price": {
+        "monthly": 850,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1010",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.537664933419,
+        "longitude": 6.654241157475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003237013",
+      "source_url": "https://www.homegate.ch/louer/4003237013",
+      "title": "Chambre",
+      "price": {
+        "monthly": 980,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": "Lausanne",
+        "postal_code": "1007",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.516284930418,
+        "longitude": 6.609041154475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003398783",
+      "source_url": "https://www.homegate.ch/louer/4003398783",
+      "title": "Recherche une chambre en colocation Lausanne et région",
+      "price": {
+        "monthly": 1000,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1004",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.527329933419,
+        "longitude": 6.618351150475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003389269",
+      "source_url": "https://www.homegate.ch/louer/4003389269",
+      "title": "Cherche sous-location, colocation URGENT 1er Aout",
+      "price": {
+        "monthly": 700,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1000",
+        "city": "Lausanne 25",
+        "country": "CH",
+        "latitude": 46.558844933419,
+        "longitude": 6.681681154475,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": null,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    },
+    {
+      "source": "homegate",
+      "source_section": "lausanne",
+      "source_id": "4003314312",
+      "source_url": "https://www.homegate.ch/louer/4003314312",
+      "title": "Colocation Lausanne",
+      "price": {
+        "monthly": 690,
+        "net": null,
+        "charges": null,
+        "currency": "CHF"
+      },
+      "location": {
+        "address": null,
+        "postal_code": "1003",
+        "city": "Lausanne",
+        "country": "CH",
+        "latitude": 46.520994935413,
+        "longitude": 6.631681155472,
+        "precision": "source_approximate",
+        "geocoding_status": "source",
+        "geocoder_origin": "homegate"
+      },
+      "property": {
+        "type": "private_room",
+        "rooms": null,
+        "bathrooms": null,
+        "size_m2": 58,
+        "floor": null,
+        "furnished": null
+      },
+      "contract": {
+        "type": null,
+        "available_from": null,
+        "available_to": null,
+        "minimum_months": null,
+        "maximum_months": null
+      },
+      "offer_type": "RENT",
+      "restrictions": {
+        "pets": null,
+        "smoking": null,
+        "student_only": null,
+        "gender": null,
+        "minimum_age": null,
+        "maximum_age": null
+      },
+      "description": null,
+      "description_raw": null
+    }
+  ]
+}

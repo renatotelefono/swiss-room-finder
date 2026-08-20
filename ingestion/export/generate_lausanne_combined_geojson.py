@@ -16,6 +16,10 @@ FLATFOX_FILE = Path(
     "data/geocoded/flatfox-lausanne-listings-geocoded.json"
 )
 
+HOMEGATE_FILE = Path(
+    "data/geocoded/homegate-listings-geocoded.json"
+)
+
 OUTPUT_FILE = Path(
     "data/final/lausanne-listings.geojson"
 )
@@ -26,7 +30,13 @@ LAUSANNE_LON = 6.6323
 RADIUS_KM = 20
 
 
-def load_json(path):
+def load_json(path, default=None):
+    if not path.exists():
+        if default is not None:
+            return default
+
+        raise FileNotFoundError(path)
+
     return json.loads(
         path.read_text(
             encoding="utf-8"
@@ -550,6 +560,16 @@ def main():
         FLATFOX_FILE
     )
 
+    #
+    # Homegate è opzionale: se la pipeline non è ancora
+    # stata eseguita per questa fonte, procediamo comunque
+    # con le altre invece di far fallire lo script.
+    #
+    homegate_data = load_json(
+        HOMEGATE_FILE,
+        default={"listings": []},
+    )
+
 
     ronorp_listings = (
         ronorp_data.get(
@@ -567,6 +587,13 @@ def main():
 
     flatfox_listings = (
         flatfox_data.get(
+            "listings",
+            []
+        )
+    )
+
+    homegate_listings = (
+        homegate_data.get(
             "listings",
             []
         )
@@ -594,6 +621,13 @@ def main():
         flatfox_listings,
         raw_features,
         "flatfox",
+    )
+
+
+    homegate_stats = add_source(
+        homegate_listings,
+        raw_features,
+        "homegate",
     )
 
 
@@ -711,6 +745,9 @@ def main():
 
                 "flatfox":
                     flatfox_stats,
+
+                "homegate":
+                    homegate_stats,
             },
         },
 
@@ -778,6 +815,14 @@ def main():
     print(
         "Flatfox:",
         flatfox_stats[
+            "added"
+        ],
+    )
+
+
+    print(
+        "Homegate:",
+        homegate_stats[
             "added"
         ],
     )

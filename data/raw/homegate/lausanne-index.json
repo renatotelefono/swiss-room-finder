@@ -1,0 +1,9 @@
+{
+  "source": "homegate",
+  "area": "lausanne",
+  "source_url": "https://www.homegate.ch/louer/appartement/sc-chambre/region-lausanne/liste-annonces",
+  "collected_at": "2026-08-20T14:01:46.736801+00:00",
+  "count": 0,
+  "listings": [],
+  "error": "initial_state_not_found"
+}
