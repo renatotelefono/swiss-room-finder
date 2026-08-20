@@ -21,6 +21,12 @@ import "./App.css";
 setWorkerUrl(workerUrl);
 
 
+/*
+ * ============================================================
+ * MAP STYLE
+ * ============================================================
+ */
+
 const mapStyle = {
   version: 8,
 
@@ -50,6 +56,12 @@ const mapStyle = {
   ],
 };
 
+
+/*
+ * ============================================================
+ * AREA VIEW
+ * ============================================================
+ */
 
 const AREA_VIEW = {
   all: {
@@ -81,32 +93,675 @@ const AREA_VIEW = {
 };
 
 
+/*
+ * ============================================================
+ * FILTER BAR STYLE
+ *
+ * Usiamo stile inline per evitare di dover modificare
+ * App.css in questa prima versione dei filtri.
+ * ============================================================
+ */
+
+const filterStyles = {
+  container: {
+    background: "#ffffff",
+    borderBottom: "1px solid #e5e7eb",
+    padding: "14px 18px",
+  },
+
+  grid: {
+    display: "grid",
+    gridTemplateColumns:
+      "repeat(auto-fit, minmax(150px, 1fr))",
+    gap: "12px",
+    alignItems: "end",
+  },
+
+  control: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "5px",
+  },
+
+  label: {
+    fontSize: "12px",
+    fontWeight: "600",
+    color: "#374151",
+  },
+
+  input: {
+    width: "100%",
+    minHeight: "38px",
+    padding: "8px 10px",
+    border: "1px solid #d1d5db",
+    borderRadius: "6px",
+    background: "#ffffff",
+    color: "#111827",
+    boxSizing: "border-box",
+  },
+
+  resetButton: {
+    minHeight: "38px",
+    padding: "8px 14px",
+    border: "1px solid #d1d5db",
+    borderRadius: "6px",
+    background: "#f9fafb",
+    color: "#111827",
+    cursor: "pointer",
+    fontWeight: "600",
+  },
+
+  statusRow: {
+    marginTop: "10px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "12px",
+    flexWrap: "wrap",
+    fontSize: "13px",
+    color: "#6b7280",
+  },
+
+  activeBadge: {
+    padding: "3px 8px",
+    borderRadius: "999px",
+    background: "#eff6ff",
+    color: "#1d4ed8",
+    fontWeight: "600",
+  },
+};
+
+
+/*
+ * ============================================================
+ * HELPERS
+ * ============================================================
+ */
+
+function normalizeString(value) {
+  if (
+    value === null
+    || value === undefined
+  ) {
+    return "";
+  }
+
+  return String(value)
+    .trim()
+    .toLowerCase();
+}
+
+
+function toNumber(value) {
+  if (
+    value === null
+    || value === undefined
+    || value === ""
+  ) {
+    return null;
+  }
+
+  if (
+    typeof value === "number"
+  ) {
+    return Number.isFinite(value)
+      ? value
+      : null;
+  }
+
+  const cleaned = String(value)
+    .replace(/\s/g, "")
+    .replace(/[^\d.,-]/g, "")
+    .replace(",", ".");
+
+  const parsed =
+    Number.parseFloat(cleaned);
+
+  return Number.isFinite(parsed)
+    ? parsed
+    : null;
+}
+
+
+function normalizeBoolean(value) {
+  if (
+    value === true
+    || value === false
+  ) {
+    return value;
+  }
+
+  const normalized =
+    normalizeString(value);
+
+  if (
+    [
+      "true",
+      "yes",
+      "y",
+      "1",
+      "si",
+      "sì",
+      "oui",
+      "ja",
+      "furnished",
+      "meuble",
+      "meublé",
+      "möbliert",
+      "arredato",
+    ].includes(normalized)
+  ) {
+    return true;
+  }
+
+  if (
+    [
+      "false",
+      "no",
+      "n",
+      "0",
+      "non",
+      "unfurnished",
+      "non meuble",
+      "non meublé",
+      "unmöbliert",
+      "non arredato",
+    ].includes(normalized)
+  ) {
+    return false;
+  }
+
+  return null;
+}
+
+
+function parseListingDate(value) {
+  if (!value) {
+    return null;
+  }
+
+  const raw =
+    String(value).trim();
+
+  if (!raw) {
+    return null;
+  }
+
+
+  /*
+   * ISO YYYY-MM-DD
+   */
+
+  const isoMatch =
+    raw.match(
+      /^(\d{4})-(\d{2})-(\d{2})/
+    );
+
+  if (isoMatch) {
+    const year =
+      Number(isoMatch[1]);
+
+    const month =
+      Number(isoMatch[2]) - 1;
+
+    const day =
+      Number(isoMatch[3]);
+
+    const date =
+      new Date(
+        year,
+        month,
+        day
+      );
+
+    if (
+      !Number.isNaN(
+        date.getTime()
+      )
+    ) {
+      return date;
+    }
+  }
+
+
+  /*
+   * DD.MM.YYYY
+   * DD/MM/YYYY
+   */
+
+  const europeanMatch =
+    raw.match(
+      /^(\d{1,2})[./](\d{1,2})[./](\d{4})$/
+    );
+
+  if (europeanMatch) {
+    const day =
+      Number(europeanMatch[1]);
+
+    const month =
+      Number(europeanMatch[2]) - 1;
+
+    const year =
+      Number(europeanMatch[3]);
+
+    const date =
+      new Date(
+        year,
+        month,
+        day
+      );
+
+    if (
+      !Number.isNaN(
+        date.getTime()
+      )
+    ) {
+      return date;
+    }
+  }
+
+
+  /*
+   * Ultimo tentativo tramite parser JS.
+   */
+
+  const parsed =
+    new Date(raw);
+
+  if (
+    !Number.isNaN(
+      parsed.getTime()
+    )
+  ) {
+    return parsed;
+  }
+
+  return null;
+}
+
+
+function propertyTypeLabel(value) {
+  const normalized =
+    normalizeString(value);
+
+  const labels = {
+    apartment:
+      "Appartamento",
+
+    private_room:
+      "Stanza privata",
+
+    shared_room:
+      "Stanza condivisa",
+
+    room:
+      "Stanza",
+
+    studio:
+      "Studio",
+
+    house:
+      "Casa",
+
+    other:
+      "Altro",
+  };
+
+  return labels[normalized]
+    || value
+    || "Non specificato";
+}
+
+
+function sourceLabel(value) {
+  const normalized =
+    normalizeString(value);
+
+  const labels = {
+    flatfox:
+      "Flatfox",
+
+    "immobilier.ch":
+      "immobilier.ch",
+
+    immobilier:
+      "immobilier.ch",
+
+    ronorp:
+      "Ron Orp",
+
+    "ron orp":
+      "Ron Orp",
+
+    anibis:
+      "Anibis",
+
+    homegate:
+      "Homegate",
+
+    wgzimmer:
+      "WGZimmer",
+  };
+
+  return labels[normalized]
+    || value
+    || "Sconosciuta";
+}
+
+
+function getPropertyValue(
+  properties,
+  candidates
+) {
+  for (
+    const key
+    of candidates
+  ) {
+    if (
+      properties?.[key]
+      !== undefined
+      && properties?.[key]
+      !== null
+      && properties?.[key]
+      !== ""
+    ) {
+      return properties[key];
+    }
+  }
+
+  return null;
+}
+
+
+/*
+ * ============================================================
+ * FILTRO GEOJSON
+ * ============================================================
+ */
+
 function filterGeoJSON(
   originalGeoJSON,
-  selectedArea
+  filters
 ) {
   if (!originalGeoJSON) {
     return null;
   }
 
 
-  if (selectedArea === "all") {
-    return originalGeoJSON;
-  }
+  const {
+    selectedArea,
+    minPrice,
+    maxPrice,
+    propertyType,
+    furnished,
+    source,
+    precision,
+    availableBy,
+  } = filters;
+
+
+  const targetAvailabilityDate =
+    availableBy
+      ? parseListingDate(
+          availableBy
+        )
+      : null;
+
+
+  const features =
+    originalGeoJSON.features.filter(
+      (feature) => {
+        const properties =
+          feature.properties || {};
+
+
+        /*
+         * AREA
+         */
+
+        if (
+          selectedArea !== "all"
+          && normalizeString(
+            properties.area
+          )
+          !== normalizeString(
+            selectedArea
+          )
+        ) {
+          return false;
+        }
+
+
+        /*
+         * PREZZO
+         */
+
+        const price =
+          toNumber(
+            getPropertyValue(
+              properties,
+              [
+                "price_monthly",
+                "monthly_price",
+                "price",
+              ]
+            )
+          );
+
+
+        if (
+          minPrice !== ""
+        ) {
+          const minimum =
+            toNumber(minPrice);
+
+          if (
+            minimum !== null
+            && (
+              price === null
+              || price < minimum
+            )
+          ) {
+            return false;
+          }
+        }
+
+
+        if (
+          maxPrice !== ""
+        ) {
+          const maximum =
+            toNumber(maxPrice);
+
+          if (
+            maximum !== null
+            && (
+              price === null
+              || price > maximum
+            )
+          ) {
+            return false;
+          }
+        }
+
+
+        /*
+         * PROPERTY TYPE
+         */
+
+        if (
+          propertyType !== "all"
+        ) {
+          const listingType =
+            normalizeString(
+              properties.property_type
+            );
+
+          if (
+            listingType
+            !== normalizeString(
+              propertyType
+            )
+          ) {
+            return false;
+          }
+        }
+
+
+        /*
+         * ARREDATO
+         *
+         * Se il filtro è attivo ma il dato
+         * è sconosciuto, l'annuncio viene escluso.
+         */
+
+        if (
+          furnished !== "all"
+        ) {
+          const listingFurnished =
+            normalizeBoolean(
+              properties.furnished
+            );
+
+          if (
+            listingFurnished
+            === null
+          ) {
+            return false;
+          }
+
+
+          if (
+            furnished === "yes"
+            && listingFurnished
+            !== true
+          ) {
+            return false;
+          }
+
+
+          if (
+            furnished === "no"
+            && listingFurnished
+            !== false
+          ) {
+            return false;
+          }
+        }
+
+
+        /*
+         * SOURCE
+         */
+
+        if (
+          source !== "all"
+        ) {
+          const listingSource =
+            normalizeString(
+              getPropertyValue(
+                properties,
+                [
+                  "source",
+                  "source_name",
+                ]
+              )
+            );
+
+          if (
+            listingSource
+            !== normalizeString(
+              source
+            )
+          ) {
+            return false;
+          }
+        }
+
+
+        /*
+         * PRECISIONE POSIZIONE
+         */
+
+        if (
+          precision !== "all"
+        ) {
+          const listingPrecision =
+            normalizeString(
+              properties
+                .location_precision
+            );
+
+          if (
+            listingPrecision
+            !== normalizeString(
+              precision
+            )
+          ) {
+            return false;
+          }
+        }
+
+
+        /*
+         * DISPONIBILE ENTRO
+         *
+         * Un annuncio passa se la sua data
+         * available_from è <= data scelta.
+         *
+         * Se non abbiamo una data leggibile,
+         * viene escluso quando questo filtro
+         * è attivo.
+         */
+
+        if (
+          targetAvailabilityDate
+        ) {
+          const listingDate =
+            parseListingDate(
+              getPropertyValue(
+                properties,
+                [
+                  "available_from",
+                  "availability_date",
+                  "available",
+                ]
+              )
+            );
+
+          if (!listingDate) {
+            return false;
+          }
+
+
+          if (
+            listingDate.getTime()
+            > targetAvailabilityDate
+              .getTime()
+          ) {
+            return false;
+          }
+        }
+
+
+        return true;
+      }
+    );
 
 
   return {
     ...originalGeoJSON,
 
-    features:
-      originalGeoJSON.features.filter(
-        (feature) =>
-          feature.properties?.area
-          === selectedArea
-      ),
+    features,
   };
 }
 
+
+/*
+ * ============================================================
+ * APP
+ * ============================================================
+ */
 
 function App() {
   const mapContainerRef =
@@ -119,6 +774,12 @@ function App() {
     useRef(null);
 
 
+  /*
+   * ============================================================
+   * FILTER STATES
+   * ============================================================
+   */
+
   const [
     selectedArea,
     setSelectedArea,
@@ -126,8 +787,62 @@ function App() {
 
 
   const [
+    minPrice,
+    setMinPrice,
+  ] = useState("");
+
+
+  const [
+    maxPrice,
+    setMaxPrice,
+  ] = useState("");
+
+
+  const [
+    propertyType,
+    setPropertyType,
+  ] = useState("all");
+
+
+  const [
+    furnished,
+    setFurnished,
+  ] = useState("all");
+
+
+  const [
+    selectedSource,
+    setSelectedSource,
+  ] = useState("all");
+
+
+  const [
+    precision,
+    setPrecision,
+  ] = useState("all");
+
+
+  const [
+    availableBy,
+    setAvailableBy,
+  ] = useState("");
+
+
+  /*
+   * ============================================================
+   * UI / DATA STATES
+   * ============================================================
+   */
+
+  const [
     visibleCount,
     setVisibleCount,
+  ] = useState(0);
+
+
+  const [
+    totalCount,
+    setTotalCount,
   ] = useState(0);
 
 
@@ -137,31 +852,48 @@ function App() {
   ] = useState(false);
 
 
+  const [
+    propertyTypes,
+    setPropertyTypes,
+  ] = useState([]);
+
+
+  const [
+    sources,
+    setSources,
+  ] = useState([]);
+
+
   /*
-   * CREA LA MAPPA UNA SOLA VOLTA
+   * ============================================================
+   * CREA MAPPA
+   * ============================================================
    */
+
   useEffect(() => {
     if (mapRef.current) {
       return;
     }
 
 
-    const map = new Map({
-      container:
-        mapContainerRef.current,
+    const map =
+      new Map({
+        container:
+          mapContainerRef.current,
 
-      style:
-        mapStyle,
+        style:
+          mapStyle,
 
-      center:
-        AREA_VIEW.all.center,
+        center:
+          AREA_VIEW.all.center,
 
-      zoom:
-        AREA_VIEW.all.zoom,
-    });
+        zoom:
+          AREA_VIEW.all.zoom,
+      });
 
 
-    mapRef.current = map;
+    mapRef.current =
+      map;
 
 
     map.addControl(
@@ -206,14 +938,112 @@ function App() {
             geojson;
 
 
+          const features =
+            Array.isArray(
+              geojson.features
+            )
+              ? geojson.features
+              : [];
+
+
           setVisibleCount(
-            geojson.features.length
+            features.length
+          );
+
+
+          setTotalCount(
+            features.length
           );
 
 
           /*
-           * SOURCE GEOJSON
+           * ====================================================
+           * OPZIONI DINAMICHE PROPERTY TYPE
+           * ====================================================
            */
+
+          const detectedPropertyTypes =
+            [
+              ...new Set(
+                features
+                  .map(
+                    (feature) =>
+                      feature
+                        .properties
+                        ?.property_type
+                  )
+                  .filter(Boolean)
+                  .map(
+                    (value) =>
+                      String(value)
+                        .trim()
+                  )
+              ),
+            ]
+              .sort(
+                (a, b) =>
+                  propertyTypeLabel(a)
+                    .localeCompare(
+                      propertyTypeLabel(b),
+                      "it"
+                    )
+              );
+
+
+          setPropertyTypes(
+            detectedPropertyTypes
+          );
+
+
+          /*
+           * ====================================================
+           * OPZIONI DINAMICHE SOURCES
+           * ====================================================
+           */
+
+          const detectedSources =
+            [
+              ...new Set(
+                features
+                  .map(
+                    (feature) =>
+                      getPropertyValue(
+                        feature.properties,
+                        [
+                          "source",
+                          "source_name",
+                        ]
+                      )
+                  )
+                  .filter(Boolean)
+                  .map(
+                    (value) =>
+                      String(value)
+                        .trim()
+                  )
+              ),
+            ]
+              .sort(
+                (a, b) =>
+                  sourceLabel(a)
+                    .localeCompare(
+                      sourceLabel(b),
+                      "it"
+                    )
+              );
+
+
+          setSources(
+            detectedSources
+          );
+
+
+          /*
+           * ====================================================
+           * SOURCE GEOJSON
+           * ====================================================
+           */
+
           map.addSource(
             "listings",
             {
@@ -231,8 +1061,11 @@ function App() {
 
 
           /*
+           * ====================================================
            * CLUSTER
+           * ====================================================
            */
+
           map.addLayer({
             id: "clusters",
 
@@ -290,8 +1123,11 @@ function App() {
 
 
           /*
+           * ====================================================
            * NUMERO NEL CLUSTER
+           * ====================================================
            */
+
           map.addLayer({
             id: "cluster-count",
 
@@ -320,8 +1156,11 @@ function App() {
 
 
           /*
+           * ====================================================
            * PUNTI SINGOLI
+           * ====================================================
            */
+
           map.addLayer({
             id: "unclustered-point",
 
@@ -370,13 +1209,16 @@ function App() {
 
 
           /*
-           * CLICK SU CLUSTER
+           * ====================================================
+           * CLICK CLUSTER
+           * ====================================================
            */
+
           map.on(
             "click",
             "clusters",
             async (event) => {
-              const features =
+              const renderedFeatures =
                 map.queryRenderedFeatures(
                   event.point,
                   {
@@ -388,14 +1230,15 @@ function App() {
 
 
               if (
-                features.length === 0
+                renderedFeatures.length
+                === 0
               ) {
                 return;
               }
 
 
               const feature =
-                features[0];
+                renderedFeatures[0];
 
 
               const clusterId =
@@ -410,28 +1253,43 @@ function App() {
                 );
 
 
-              const zoom =
-                await source
-                  .getClusterExpansionZoom(
-                    clusterId
-                  );
+              if (!source) {
+                return;
+              }
 
 
-              map.easeTo({
-                center:
-                  feature
-                    .geometry
-                    .coordinates,
+              try {
+                const zoom =
+                  await source
+                    .getClusterExpansionZoom(
+                      clusterId
+                    );
 
-                zoom,
-              });
+
+                map.easeTo({
+                  center:
+                    feature
+                      .geometry
+                      .coordinates,
+
+                  zoom,
+                });
+              } catch (error) {
+                console.error(
+                  "ERRORE CLUSTER:",
+                  error
+                );
+              }
             }
           );
 
 
           /*
-           * CLICK SU ANNUNCIO
+           * ====================================================
+           * CLICK ANNUNCIO
+           * ====================================================
            */
+
           map.on(
             "click",
             "unclustered-point",
@@ -446,7 +1304,7 @@ function App() {
 
 
               const properties =
-                feature.properties;
+                feature.properties || {};
 
 
               const coordinates =
@@ -469,6 +1327,7 @@ function App() {
               /*
                * TITOLO
                */
+
               const title =
                 document.createElement(
                   "h3"
@@ -488,6 +1347,7 @@ function App() {
               /*
                * AREA
                */
+
               const area =
                 document.createElement(
                   "p"
@@ -525,6 +1385,7 @@ function App() {
               /*
                * PREZZO
                */
+
               const price =
                 document.createElement(
                   "p"
@@ -536,16 +1397,21 @@ function App() {
 
 
               const monthlyPrice =
-                Number(
-                  properties
-                    .price_monthly
+                toNumber(
+                  getPropertyValue(
+                    properties,
+                    [
+                      "price_monthly",
+                      "monthly_price",
+                      "price",
+                    ]
+                  )
                 );
 
 
               if (
-                Number.isFinite(
-                  monthlyPrice
-                )
+                monthlyPrice
+                !== null
               ) {
                 price.textContent =
                   `${monthlyPrice.toLocaleString(
@@ -563,8 +1429,36 @@ function App() {
 
 
               /*
+               * TIPO IMMOBILE
+               */
+
+              if (
+                properties
+                  .property_type
+              ) {
+                const typeElement =
+                  document.createElement(
+                    "p"
+                  );
+
+
+                typeElement.textContent =
+                  propertyTypeLabel(
+                    properties
+                      .property_type
+                  );
+
+
+                popup.appendChild(
+                  typeElement
+                );
+              }
+
+
+              /*
                * LOCALI + SUPERFICIE
                */
+
               const details = [];
 
 
@@ -582,6 +1476,16 @@ function App() {
               ) {
                 details.push(
                   `${properties.size_m2} m²`
+                );
+              }
+
+
+              if (
+                properties
+                  .usable_area_m2
+              ) {
+                details.push(
+                  `${properties.usable_area_m2} m² utili`
                 );
               }
 
@@ -608,9 +1512,12 @@ function App() {
               /*
                * LOCALITÀ
                */
+
               const locationText =
                 [
-                  properties.postal_code,
+                  properties
+                    .postal_code,
+
                   properties.city,
                 ]
                   .filter(Boolean)
@@ -637,15 +1544,49 @@ function App() {
 
 
               /*
+               * ARREDATO
+               */
+
+              const furnishedValue =
+                normalizeBoolean(
+                  properties.furnished
+                );
+
+
+              if (
+                furnishedValue
+                !== null
+              ) {
+                const furnishedElement =
+                  document.createElement(
+                    "p"
+                  );
+
+
+                furnishedElement
+                  .textContent =
+                    furnishedValue
+                      ? "Arredato: sì"
+                      : "Arredato: no";
+
+
+                popup.appendChild(
+                  furnishedElement
+                );
+              }
+
+
+              /*
                * PRECISIONE
                */
-              const precision =
+
+              const precisionElement =
                 document.createElement(
                   "p"
                 );
 
 
-              precision.className =
+              precisionElement.className =
                 "popup-precision";
 
 
@@ -654,22 +1595,25 @@ function App() {
                   .location_precision
                 === "address"
               ) {
-                precision.textContent =
-                  "● Posizione precisa";
+                precisionElement
+                  .textContent =
+                    "● Posizione precisa";
               } else {
-                precision.textContent =
-                  "○ Posizione approssimativa";
+                precisionElement
+                  .textContent =
+                    "○ Posizione approssimativa";
               }
 
 
               popup.appendChild(
-                precision
+                precisionElement
               );
 
 
               /*
                * DISPONIBILITÀ
                */
+
               if (
                 properties
                   .available_from
@@ -691,8 +1635,44 @@ function App() {
 
 
               /*
+               * FONTE
+               */
+
+              const listingSource =
+                getPropertyValue(
+                  properties,
+                  [
+                    "source",
+                    "source_name",
+                  ]
+                );
+
+
+              if (
+                listingSource
+              ) {
+                const sourceElement =
+                  document.createElement(
+                    "p"
+                  );
+
+
+                sourceElement.textContent =
+                  `Fonte: ${sourceLabel(
+                    listingSource
+                  )}`;
+
+
+                popup.appendChild(
+                  sourceElement
+                );
+              }
+
+
+              /*
                * LINK
                */
+
               if (
                 properties
                   .source_url
@@ -717,7 +1697,7 @@ function App() {
 
 
                 link.textContent =
-                  "Apri annuncio ";
+                  "Apri l'annuncio";
 
 
                 popup.appendChild(
@@ -743,8 +1723,11 @@ function App() {
 
 
           /*
+           * ====================================================
            * POINTER
+           * ====================================================
            */
+
           [
             "clusters",
             "unclustered-point",
@@ -779,7 +1762,7 @@ function App() {
 
           console.log(
             "Swiss listings:",
-            geojson.features.length
+            features.length
           );
         } catch (error) {
           console.error(
@@ -794,14 +1777,18 @@ function App() {
     return () => {
       map.remove();
 
-      mapRef.current = null;
+      mapRef.current =
+        null;
     };
   }, []);
 
 
   /*
-   * CAMBIO AREA
+   * ============================================================
+   * APPLICA TUTTI I FILTRI
+   * ============================================================
    */
+
   useEffect(() => {
     if (
       !dataLoaded
@@ -815,21 +1802,28 @@ function App() {
     const filtered =
       filterGeoJSON(
         originalGeoJSONRef.current,
-        selectedArea
+        {
+          selectedArea,
+          minPrice,
+          maxPrice,
+          propertyType,
+          furnished,
+          source:
+            selectedSource,
+          precision,
+          availableBy,
+        }
       );
 
 
     const source =
-      mapRef.current.getSource(
-        "listings"
-      );
+      mapRef.current
+        .getSource(
+          "listings"
+        );
 
 
     if (source) {
-      /*
-       * Aggiorniamo direttamente i dati
-       * della source GeoJSON.
-       */
       source.setData(
         filtered
       );
@@ -839,10 +1833,43 @@ function App() {
     setVisibleCount(
       filtered.features.length
     );
+  }, [
+    selectedArea,
+    minPrice,
+    maxPrice,
+    propertyType,
+    furnished,
+    selectedSource,
+    precision,
+    availableBy,
+    dataLoaded,
+  ]);
+
+
+  /*
+   * ============================================================
+   * CAMBIO AREA = SPOSTAMENTO MAPPA
+   *
+   * Gli altri filtri NON cambiano automaticamente zoom.
+   * ============================================================
+   */
+
+  useEffect(() => {
+    if (
+      !dataLoaded
+      || !mapRef.current
+    ) {
+      return;
+    }
 
 
     const view =
       AREA_VIEW[selectedArea];
+
+
+    if (!view) {
+      return;
+    }
 
 
     mapRef.current.easeTo({
@@ -861,6 +1888,63 @@ function App() {
   ]);
 
 
+  /*
+   * ============================================================
+   * RESET
+   * ============================================================
+   */
+
+  function resetFilters() {
+    setSelectedArea("all");
+
+    setMinPrice("");
+
+    setMaxPrice("");
+
+    setPropertyType("all");
+
+    setFurnished("all");
+
+    setSelectedSource("all");
+
+    setPrecision("all");
+
+    setAvailableBy("");
+  }
+
+
+  /*
+   * ============================================================
+   * NUMERO FILTRI ATTIVI
+   * ============================================================
+   */
+
+  const activeFilterCount =
+    [
+      selectedArea !== "all",
+
+      minPrice !== "",
+
+      maxPrice !== "",
+
+      propertyType !== "all",
+
+      furnished !== "all",
+
+      selectedSource !== "all",
+
+      precision !== "all",
+
+      availableBy !== "",
+    ].filter(Boolean).length;
+
+
+  /*
+   * ============================================================
+   * RENDER
+   * ============================================================
+   */
+
   return (
     <div className="app">
 
@@ -872,21 +1956,62 @@ function App() {
           </h1>
 
           <p>
-            Annunci 
+            Annunci immobiliari in Svizzera
           </p>
         </div>
 
 
         <div className="header-controls">
 
+          <div className="header-stats">
+            {visibleCount} annunci
+          </div>
+
+        </div>
+
+      </header>
+
+
+      {/*
+       * ========================================================
+       * FILTRI
+       * ========================================================
+       */}
+
+      <section
+        style={
+          filterStyles.container
+        }
+      >
+
+        <div
+          style={
+            filterStyles.grid
+          }
+        >
+
+          {/*
+           * AREA
+           */}
+
           <label
-            className="area-control"
+            style={
+              filterStyles.control
+            }
           >
-            <span>
+            <span
+              style={
+                filterStyles.label
+              }
+            >
               Area
             </span>
 
             <select
+              style={
+                filterStyles.input
+              }
+
               value={
                 selectedArea
               }
@@ -913,22 +2038,453 @@ function App() {
           </label>
 
 
-          <div className="header-stats">
-            {visibleCount} annunci
+          {/*
+           * PREZZO MINIMO
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Prezzo min. CHF
+            </span>
+
+            <input
+              style={
+                filterStyles.input
+              }
+
+              type="number"
+
+              min="0"
+
+              step="50"
+
+              placeholder="es. 500"
+
+              value={
+                minPrice
+              }
+
+              onChange={
+                (event) =>
+                  setMinPrice(
+                    event.target.value
+                  )
+              }
+            />
+          </label>
+
+
+          {/*
+           * PREZZO MASSIMO
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Prezzo max. CHF
+            </span>
+
+            <input
+              style={
+                filterStyles.input
+              }
+
+              type="number"
+
+              min="0"
+
+              step="50"
+
+              placeholder="es. 1500"
+
+              value={
+                maxPrice
+              }
+
+              onChange={
+                (event) =>
+                  setMaxPrice(
+                    event.target.value
+                  )
+              }
+            />
+          </label>
+
+
+          {/*
+           * PROPERTY TYPE
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Tipo
+            </span>
+
+            <select
+              style={
+                filterStyles.input
+              }
+
+              value={
+                propertyType
+              }
+
+              onChange={
+                (event) =>
+                  setPropertyType(
+                    event.target.value
+                  )
+              }
+            >
+              <option value="all">
+                Tutti
+              </option>
+
+              {
+                propertyTypes.map(
+                  (type) => (
+                    <option
+                      key={type}
+                      value={type}
+                    >
+                      {
+                        propertyTypeLabel(
+                          type
+                        )
+                      }
+                    </option>
+                  )
+                )
+              }
+            </select>
+          </label>
+
+
+          {/*
+           * ARREDATO
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Arredato
+            </span>
+
+            <select
+              style={
+                filterStyles.input
+              }
+
+              value={
+                furnished
+              }
+
+              onChange={
+                (event) =>
+                  setFurnished(
+                    event.target.value
+                  )
+              }
+            >
+              <option value="all">
+                Tutti
+              </option>
+
+              <option value="yes">
+                Sì
+              </option>
+
+              <option value="no">
+                No
+              </option>
+            </select>
+          </label>
+
+
+          {/*
+           * FONTE
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Fonte
+            </span>
+
+            <select
+              style={
+                filterStyles.input
+              }
+
+              value={
+                selectedSource
+              }
+
+              onChange={
+                (event) =>
+                  setSelectedSource(
+                    event.target.value
+                  )
+              }
+            >
+              <option value="all">
+                Tutte
+              </option>
+
+              {
+                sources.map(
+                  (source) => (
+                    <option
+                      key={source}
+                      value={source}
+                    >
+                      {
+                        sourceLabel(
+                          source
+                        )
+                      }
+                    </option>
+                  )
+                )
+              }
+            </select>
+          </label>
+
+
+          {/*
+           * PRECISIONE
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Posizione
+            </span>
+
+            <select
+              style={
+                filterStyles.input
+              }
+
+              value={
+                precision
+              }
+
+              onChange={
+                (event) =>
+                  setPrecision(
+                    event.target.value
+                  )
+              }
+            >
+              <option value="all">
+                Tutte
+              </option>
+
+              <option value="address">
+                Precisa
+              </option>
+
+              <option value="postal_code_city">
+                Approssimativa
+              </option>
+            </select>
+          </label>
+
+
+          {/*
+           * DISPONIBILE ENTRO
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Disponibile entro
+            </span>
+
+            <input
+              style={
+                filterStyles.input
+              }
+
+              type="date"
+
+              value={
+                availableBy
+              }
+
+              onChange={
+                (event) =>
+                  setAvailableBy(
+                    event.target.value
+                  )
+              }
+            />
+          </label>
+
+
+          {/*
+           * RESET
+           */}
+
+          <div
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Filtri
+            </span>
+
+            <button
+              type="button"
+
+              style={
+                filterStyles.resetButton
+              }
+
+              onClick={
+                resetFilters
+              }
+            >
+              Reset filtri
+            </button>
           </div>
 
         </div>
 
-      </header>
 
+        {/*
+         * STATUS FILTRI
+         */}
+
+        <div
+          style={
+            filterStyles.statusRow
+          }
+        >
+
+          <div>
+            Mostrati{" "}
+            <strong>
+              {visibleCount}
+            </strong>
+            {" "}di{" "}
+            <strong>
+              {totalCount}
+            </strong>
+            {" "}annunci
+          </div>
+
+
+          {
+            activeFilterCount > 0
+              ? (
+                  <div
+                    style={
+                      filterStyles.activeBadge
+                    }
+                  >
+                    {
+                      activeFilterCount
+                    }{" "}
+                    {
+                      activeFilterCount
+                      === 1
+                        ? "filtro attivo"
+                        : "filtri attivi"
+                    }
+                  </div>
+                )
+              : (
+                  <div>
+                    Nessun filtro attivo
+                  </div>
+                )
+          }
+
+        </div>
+
+      </section>
+
+
+      {/*
+       * ========================================================
+       * MAPPA
+       * ========================================================
+       */}
 
       <div className="map-wrapper">
 
         <div
-          ref={mapContainerRef}
+          ref={
+            mapContainerRef
+          }
+
           className="map"
         />
 
+
+        {/*
+         * ======================================================
+         * LEGENDA
+         * ======================================================
+         */}
 
         <div className="legend">
 
