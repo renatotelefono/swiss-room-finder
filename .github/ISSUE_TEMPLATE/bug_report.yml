@@ -1,0 +1,92 @@
+name: 🐛 Bug Report
+description: Segnala un problema riscontrato in Swiss Room Finder
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver segnalato un problema! Compila i campi sottostanti con più dettagli possibile.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente interessato
+      description: In quale parte del progetto si verifica il problema?
+      options:
+        - Frontend
+        - Ingestion
+        - Data
+        - Altro / Non so
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione del bug
+      description: Descrivi chiaramente cosa non funziona.
+      placeholder: Es. "La ricerca per città non restituisce risultati per Zurigo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passi per riprodurre
+      description: Elenca i passaggi esatti per riprodurre il problema.
+      placeholder: |
+        1. Vai su...
+        2. Clicca su...
+        3. Inserisci...
+        4. Osserva l'errore
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento atteso
+      description: Cosa ti aspettavi che succedesse invece?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamento osservato
+      description: Cosa succede realmente? Includi eventuali messaggi di errore.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot / Log
+      description: Se possibile allega screenshot, log o output della console.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versione
+      description: Versione del progetto (vedi file VERSION) o commit/branch usato.
+      placeholder: Es. v1.2.0 o commit abc1234
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Gravità
+      options:
+        - Bassa (fastidio minore)
+        - Media (funzionalità parzialmente compromessa)
+        - Alta (funzionalità bloccata)
+        - Critica (crash o perdita dati)
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Sistema operativo, browser, versione Python, ecc.
+      placeholder: Es. Windows 10, Chrome 120, Python 3.11

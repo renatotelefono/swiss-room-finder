@@ -1,0 +1,38 @@
+name: ✨ Feature Request
+description: Proponi una nuova funzionalità o un miglioramento
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Quale problema risolve?
+      description: Descrivi il problema o la necessità che questa funzionalità affronterebbe.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Soluzione proposta
+      description: Come immagini che dovrebbe funzionare?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente interessato
+      options:
+        - Frontend
+        - Ingestion
+        - Data
+        - Altro / Non so
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative considerate
+      description: Hai pensato ad altri modi per risolvere il problema?
