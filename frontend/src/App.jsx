@@ -155,6 +155,49 @@ const filterStyles = {
     color: "#6b7280",
   },
 
+  listPanel: {
+    background: "#ffffff",
+    borderBottom: "1px solid #e5e7eb",
+    padding: "14px 18px",
+    maxHeight: "320px",
+    overflowY: "auto",
+  },
+
+  listPanelHeader: {
+    fontSize: "13px",
+    fontWeight: "600",
+    color: "#374151",
+    marginBottom: "10px",
+  },
+
+  listEmpty: {
+    fontSize: "13px",
+    color: "#6b7280",
+  },
+
+  listItem: {
+    padding: "10px 0",
+    borderBottom: "1px solid #f3f4f6",
+  },
+
+  listTitle: {
+    fontWeight: "600",
+    color: "#111827",
+    marginBottom: "4px",
+  },
+
+  listMeta: {
+    fontSize: "13px",
+    color: "#6b7280",
+    marginBottom: "4px",
+  },
+
+  listLink: {
+    fontSize: "13px",
+    color: "#1d4ed8",
+    textDecoration: "none",
+  },
+
   activeBadge: {
     padding: "3px 8px",
     borderRadius: "999px",
@@ -885,6 +928,18 @@ function App() {
     totalCount,
     setTotalCount,
   ] = useState(0);
+
+
+  const [
+    filteredFeatures,
+    setFilteredFeatures,
+  ] = useState([]);
+
+
+  const [
+    showList,
+    setShowList,
+  ] = useState(false);
 
 
   const [
@@ -1888,6 +1943,10 @@ function App() {
     setVisibleCount(
       filtered.features.length
     );
+
+    setFilteredFeatures(
+      filtered.features
+    );
   }, [
     selectedArea,
     minPrice,
@@ -2502,6 +2561,46 @@ function App() {
             </button>
           </div>
 
+
+          {/*
+           * LISTA
+           */}
+
+          <div
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Elenco
+            </span>
+
+            <button
+              type="button"
+
+              style={
+                filterStyles.resetButton
+              }
+
+              onClick={
+                () =>
+                  setShowList(
+                    (value) => !value
+                  )
+              }
+            >
+              {
+                showList
+                  ? "Nascondi lista"
+                  : "Genera lista"
+              }
+            </button>
+          </div>
+
         </div>
 
 
@@ -2557,6 +2656,97 @@ function App() {
         </div>
 
       </section>
+
+
+      {/*
+       * ========================================================
+       * LISTA ANNUNCI FILTRATI
+       * ========================================================
+       */}
+
+      {
+        showList
+          ? (
+              <section style={filterStyles.listPanel}>
+
+                <div style={filterStyles.listPanelHeader}>
+                  {filteredFeatures.length}{" "}
+                  {
+                    filteredFeatures.length === 1
+                      ? "annuncio corrisponde ai filtri"
+                      : "annunci corrispondono ai filtri"
+                  }
+                </div>
+
+                {
+                  filteredFeatures.length === 0
+                    ? (
+                        <div style={filterStyles.listEmpty}>
+                          Nessun annuncio corrisponde ai filtri attuali.
+                        </div>
+                      )
+                    : (
+                        filteredFeatures.map((feature, index) => {
+                          const properties = feature.properties || {};
+
+                          const price = toNumber(
+                            getPropertyValue(properties, [
+                              "price_monthly",
+                              "monthly_price",
+                              "price",
+                            ])
+                          );
+
+                          const locationText = [
+                            properties.postal_code,
+                            properties.city,
+                          ]
+                            .filter(Boolean)
+                            .join(" ");
+
+                          return (
+                            <div
+                              key={properties.source_url || index}
+                              style={filterStyles.listItem}
+                            >
+                              <div style={filterStyles.listTitle}>
+                                {properties.title || "Annuncio"}
+                              </div>
+
+                              <div style={filterStyles.listMeta}>
+                                {
+                                  price !== null
+                                    ? `${price.toLocaleString("it-CH")} CHF / mese`
+                                    : "Prezzo non disponibile"
+                                }
+                                {locationText ? ` · ${locationText}` : ""}
+                                {properties.source ? ` · ${sourceLabel(properties.source)}` : ""}
+                              </div>
+
+                              {
+                                properties.source_url
+                                  ? (
+                                      <a
+                                        href={properties.source_url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={filterStyles.listLink}
+                                      >
+                                        Apri annuncio
+                                      </a>
+                                    )
+                                  : null
+                              }
+                            </div>
+                          );
+                        })
+                      )
+                }
+
+              </section>
+            )
+          : null
+      }
 
 
       {/*
