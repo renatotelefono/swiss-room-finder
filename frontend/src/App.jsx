@@ -497,6 +497,7 @@ function filterGeoJSON(
     source,
     precision,
     availableBy,
+    search,
   } = filters;
 
 
@@ -513,6 +514,39 @@ function filterGeoJSON(
       (feature) => {
         const properties =
           feature.properties || {};
+
+
+        /*
+         * RICERCA TESTUALE
+         *
+         * Cerca nel titolo, città e indirizzo
+         * dell'annuncio.
+         */
+
+        if (search) {
+          const query =
+            normalizeString(search);
+
+          const haystack =
+            [
+              properties.title,
+              properties.city,
+              properties.address,
+              properties.postal_code,
+            ]
+              .filter(Boolean)
+              .map(
+                (value) =>
+                  normalizeString(value)
+              )
+              .join(" ");
+
+          if (
+            !haystack.includes(query)
+          ) {
+            return false;
+          }
+        }
 
 
         /*
@@ -779,6 +813,12 @@ function App() {
    * FILTER STATES
    * ============================================================
    */
+
+  const [
+    search,
+    setSearch,
+  ] = useState("");
+
 
   const [
     selectedArea,
@@ -1812,6 +1852,7 @@ function App() {
             selectedSource,
           precision,
           availableBy,
+          search,
         }
       );
 
@@ -1842,6 +1883,7 @@ function App() {
     selectedSource,
     precision,
     availableBy,
+    search,
     dataLoaded,
   ]);
 
@@ -1895,6 +1937,8 @@ function App() {
    */
 
   function resetFilters() {
+    setSearch("");
+
     setSelectedArea("all");
 
     setMinPrice("");
@@ -1921,6 +1965,8 @@ function App() {
 
   const activeFilterCount =
     [
+      search !== "",
+
       selectedArea !== "all",
 
       minPrice !== "",
@@ -1989,6 +2035,46 @@ function App() {
             filterStyles.grid
           }
         >
+
+          {/*
+           * RICERCA
+           */}
+
+          <label
+            style={
+              filterStyles.control
+            }
+          >
+            <span
+              style={
+                filterStyles.label
+              }
+            >
+              Cerca
+            </span>
+
+            <input
+              style={
+                filterStyles.input
+              }
+
+              type="text"
+
+              placeholder="Titolo, città, indirizzo..."
+
+              value={
+                search
+              }
+
+              onChange={
+                (event) =>
+                  setSearch(
+                    event.target.value
+                  )
+              }
+            />
+          </label>
+
 
           {/*
            * AREA
