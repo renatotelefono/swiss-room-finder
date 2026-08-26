@@ -64,19 +64,12 @@ const mapStyle = {
  */
 
 const AREA_VIEW = {
+  // Zurigo è stata rimossa dal dataset: "all" ora
+  // coincide con la vista su Losanna.
   all: {
     center: [
-      7.6,
-      47.0,
-    ],
-
-    zoom: 7,
-  },
-
-  zurich: {
-    center: [
-      8.5417,
-      47.3769,
+      6.6323,
+      46.5197,
     ],
 
     zoom: 9,
@@ -2119,10 +2112,6 @@ function App() {
             >
               <option value="all">
                 Tutte
-              </option>
-
-              <option value="zurich">
-                Zurigo
               </option>
 
               <option value="lausanne">

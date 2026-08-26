@@ -2,10 +2,6 @@ import json
 from pathlib import Path
 
 
-ZURICH_FILE = Path(
-    "data/final/listings.geojson"
-)
-
 LAUSANNE_FILE = Path(
     "data/final/lausanne-listings.geojson"
 )
@@ -24,21 +20,14 @@ def load_geojson(path):
 
 
 def main():
-    zurich = load_geojson(
-        ZURICH_FILE
-    )
-
+    #
+    # Zurigo è stato rimosso dal dataset su richiesta:
+    # l'app ora copre solo l'area di Losanna.
+    #
     lausanne = load_geojson(
         LAUSANNE_FILE
     )
 
-
-    zurich_features = (
-        zurich.get(
-            "features",
-            []
-        )
-    )
 
     lausanne_features = (
         lausanne.get(
@@ -52,16 +41,6 @@ def main():
     # Aggiungiamo un campo "area"
     # uniforme a tutti gli annunci.
     #
-    for feature in zurich_features:
-
-        properties = feature.setdefault(
-            "properties",
-            {}
-        )
-
-        properties["area"] = "zurich"
-
-
     for feature in lausanne_features:
 
         properties = feature.setdefault(
@@ -72,11 +51,7 @@ def main():
         properties["area"] = "lausanne"
 
 
-    features = (
-        zurich_features
-        +
-        lausanne_features
-    )
+    features = lausanne_features
 
 
     output = {
@@ -88,11 +63,6 @@ def main():
                 len(features),
 
             "areas": {
-                "zurich":
-                    len(
-                        zurich_features
-                    ),
-
                 "lausanne":
                     len(
                         lausanne_features
@@ -131,18 +101,11 @@ def main():
     )
 
     print(
-        "SWISS GEOJSON"
+        "SWISS GEOJSON (solo Losanna)"
     )
 
     print(
         "----------------------"
-    )
-
-    print(
-        "Zurich:",
-        len(
-            zurich_features
-        ),
     )
 
     print(
