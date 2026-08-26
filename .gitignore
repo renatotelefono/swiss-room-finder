@@ -168,3 +168,6 @@ wheels/
 #
 # Questi file fanno parte della versione riproducibile
 # di Swiss Room Finder.
+# Log di update_all_data.py
+update_log.txt
+update_log_err.txt
