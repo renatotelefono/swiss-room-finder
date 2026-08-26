@@ -1226,6 +1226,19 @@ function App() {
 
                   [
                     "get",
+                    "price_monthly",
+                  ],
+
+                  null,
+                ],
+
+                "#9ca3af",
+
+                [
+                  "==",
+
+                  [
+                    "get",
                     "location_precision",
                   ],
 
@@ -2586,6 +2599,15 @@ function App() {
             />
 
             Posizione approssimativa
+          </div>
+
+
+          <div>
+            <span
+              className="dot no-price"
+            />
+
+            Senza prezzo
           </div>
 
         </div>

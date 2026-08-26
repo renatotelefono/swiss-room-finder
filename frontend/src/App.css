@@ -131,6 +131,11 @@
 }
 
 
+.dot.no-price {
+  background: #9ca3af;
+}
+
+
 .listing-popup {
   min-width: 230px;
   max-width: 330px;
