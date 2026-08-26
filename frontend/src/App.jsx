@@ -541,37 +541,31 @@ function getPropertyValue(
 
 /*
  * ============================================================
- * ESPORTAZIONE CSV
+ * ESPORTAZIONE TABELLA HTML
+ *
+ * Genera un file .html scaricabile e apribile in qualsiasi
+ * browser, con i link agli annunci cliccabili.
  * ============================================================
  */
 
-function escapeCsvValue(value) {
+function escapeHtml(value) {
   const text =
     value === null
     || value === undefined
       ? ""
       : String(value);
 
-  if (/[",\r\n]/.test(text)) {
-    return `"${text.replace(/"/g, '""')}"`;
-  }
-
-  return text;
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
 
-function buildCsvContent(features) {
-  const header = [
-    "Descrizione",
-    "Fonte",
-    "Prezzo (CHF)",
-    "Via",
-    "Libero dal",
-    "Link annuncio",
-  ];
-
-  const rows = features.map(
-    (feature) => {
+function buildHtmlContent(features) {
+  const rows = features
+    .map((feature) => {
       const properties =
         feature.properties || {};
 
@@ -583,37 +577,89 @@ function buildCsvContent(features) {
         ])
       );
 
-      return [
-        propertyTypeLabel(
-          properties.property_type
-        ),
+      const priceText =
+        price !== null
+          ? `${price.toLocaleString("it-CH")} CHF`
+          : "—";
+
+      const sourceText =
         properties.source
           ? sourceLabel(properties.source)
-          : "",
-        price !== null ? price : "",
-        properties.address || "",
-        properties.available_from || "",
-        properties.source_url || "",
-      ]
-        .map(escapeCsvValue)
-        .join(",");
-    }
-  );
+          : "—";
 
-  return [
-    header.map(escapeCsvValue).join(","),
-    ...rows,
-  ].join("\r\n");
+      const description = propertyTypeLabel(
+        properties.property_type
+      );
+
+      const address =
+        properties.address || "—";
+
+      const availableFrom =
+        properties.available_from || "—";
+
+      const link = properties.source_url
+        ? `<a href="${escapeHtml(properties.source_url)}" target="_blank" rel="noopener noreferrer">Apri annuncio</a>`
+        : "—";
+
+      return `<tr>
+<td>${escapeHtml(description)}</td>
+<td>${escapeHtml(sourceText)}</td>
+<td>${escapeHtml(priceText)}</td>
+<td>${escapeHtml(address)}</td>
+<td>${escapeHtml(availableFrom)}</td>
+<td>${link}</td>
+</tr>`;
+    })
+    .join("\n");
+
+  const generatedAt = new Date().toLocaleString("it-CH");
+
+  return `<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<title>Annunci Losanna - Swiss Room Finder</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; padding: 24px; color: #111827; }
+  h1 { font-size: 18px; margin-bottom: 4px; }
+  p.meta { color: #6b7280; font-size: 13px; margin-top: 0; margin-bottom: 18px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e5e7eb; }
+  th { background: #f9fafb; font-weight: 600; }
+  tr:hover { background: #f9fafb; }
+  a { color: #1d4ed8; text-decoration: none; font-weight: 600; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<h1>Annunci Losanna — Swiss Room Finder</h1>
+<p class="meta">${features.length} annunci, generato il ${generatedAt}, ordinati per prezzo.</p>
+<table>
+<thead>
+<tr>
+<th>Descrizione</th>
+<th>Fonte</th>
+<th>Prezzo</th>
+<th>Via</th>
+<th>Libero dal</th>
+<th>Annuncio</th>
+</tr>
+</thead>
+<tbody>
+${rows}
+</tbody>
+</table>
+</body>
+</html>`;
 }
 
 
-function downloadCsv(features) {
-  const csvBody = buildCsvContent(features);
+function downloadHtml(features) {
+  const htmlContent = buildHtmlContent(features);
 
-  // BOM per far riconoscere l'UTF-8 a Excel
   const blob = new Blob(
-    ["\uFEFF" + csvBody],
-    { type: "text/csv;charset=utf-8;" }
+    [htmlContent],
+    { type: "text/html;charset=utf-8;" }
   );
 
   const url = URL.createObjectURL(blob);
@@ -621,7 +667,7 @@ function downloadCsv(features) {
   const link = document.createElement("a");
 
   link.href = url;
-  link.download = "annunci-losanna.csv";
+  link.download = "annunci-losanna.html";
 
   document.body.appendChild(link);
   link.click();
@@ -2852,10 +2898,10 @@ function App() {
                             type="button"
                             style={filterStyles.downloadButton}
                             onClick={
-                              () => downloadCsv(sortedFeatures)
+                              () => downloadHtml(sortedFeatures)
                             }
                           >
-                            Scarica CSV
+                            Scarica tabella (HTML)
                           </button>
                         )
                       : null
