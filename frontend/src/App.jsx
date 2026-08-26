@@ -521,9 +521,17 @@ function filterGeoJSON(
          *
          * Cerca nel titolo, città e indirizzo
          * dell'annuncio.
+         *
+         * La ricerca è limitata agli annunci
+         * dell'area di Losanna, indipendentemente
+         * dal filtro "Area" selezionato.
          */
 
         if (search) {
+          if (properties.area !== "lausanne") {
+            return false;
+          }
+
           const query =
             normalizeString(search);
 
