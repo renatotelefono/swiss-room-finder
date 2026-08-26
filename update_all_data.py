@@ -22,8 +22,11 @@ Ogni fase viene eseguita come processo separato: se una fase fallisce
 ma prosegue comunque con le fasi successive, così un problema su una
 sola fonte non blocca l'aggiornamento delle altre.
 
-Fonti NON incluse in questa pipeline perché non ancora collegate al
-dataset finale:
+Fonti NON incluse in questa pipeline:
+  - Ron Orp Zurigo: esclusa su richiesta per velocizzare gli
+    aggiornamenti, che ora coprono solo l'area di Losanna. I dati
+    di Zurigo già raccolti restano nel dataset finale ma non
+    vengono più aggiornati da questo script.
   - Anibis (solo raccolta indice, nessuna normalizzazione/geocoding)
   - WGZimmer (il sito blocca lo scraping automatico con reCAPTCHA)
 
@@ -53,13 +56,6 @@ REPO_ROOT = Path(__file__).resolve().parent
 # I percorsi sono relativi alla radice del repository.
 
 SOURCES = {
-    "Ron Orp - Zurigo": [
-        "ingestion/collectors/ronorp_index.py",
-        "ingestion/collectors/ronorp_details.py",
-        "ingestion/normalization/normalize_listings.py",
-        "ingestion/geocoding/geocode.py",
-        "ingestion/export/generate_geojson.py",
-    ],
     "Ron Orp - Romandie (Losanna)": [
         "ingestion/collectors/ronorp_romandie_index.py",
         "ingestion/collectors/ronorp_romandie_details.py",
