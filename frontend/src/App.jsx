@@ -164,10 +164,27 @@ const filterStyles = {
   },
 
   listPanelHeader: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "12px",
+    flexWrap: "wrap",
     fontSize: "13px",
     fontWeight: "600",
     color: "#374151",
     marginBottom: "10px",
+  },
+
+  downloadButton: {
+    minHeight: "32px",
+    padding: "6px 12px",
+    border: "1px solid #1d4ed8",
+    borderRadius: "6px",
+    background: "#eff6ff",
+    color: "#1d4ed8",
+    cursor: "pointer",
+    fontWeight: "600",
+    fontSize: "13px",
   },
 
   listEmpty: {
@@ -519,6 +536,98 @@ function getPropertyValue(
   }
 
   return null;
+}
+
+
+/*
+ * ============================================================
+ * ESPORTAZIONE CSV
+ * ============================================================
+ */
+
+function escapeCsvValue(value) {
+  const text =
+    value === null
+    || value === undefined
+      ? ""
+      : String(value);
+
+  if (/[",\r\n]/.test(text)) {
+    return `"${text.replace(/"/g, '""')}"`;
+  }
+
+  return text;
+}
+
+
+function buildCsvContent(features) {
+  const header = [
+    "Descrizione",
+    "Fonte",
+    "Prezzo (CHF)",
+    "Via",
+    "Libero dal",
+    "Link annuncio",
+  ];
+
+  const rows = features.map(
+    (feature) => {
+      const properties =
+        feature.properties || {};
+
+      const price = toNumber(
+        getPropertyValue(properties, [
+          "price_monthly",
+          "monthly_price",
+          "price",
+        ])
+      );
+
+      return [
+        propertyTypeLabel(
+          properties.property_type
+        ),
+        properties.source
+          ? sourceLabel(properties.source)
+          : "",
+        price !== null ? price : "",
+        properties.address || "",
+        properties.available_from || "",
+        properties.source_url || "",
+      ]
+        .map(escapeCsvValue)
+        .join(",");
+    }
+  );
+
+  return [
+    header.map(escapeCsvValue).join(","),
+    ...rows,
+  ].join("\r\n");
+}
+
+
+function downloadCsv(features) {
+  const csvBody = buildCsvContent(features);
+
+  // BOM per far riconoscere l'UTF-8 a Excel
+  const blob = new Blob(
+    ["\uFEFF" + csvBody],
+    { type: "text/csv;charset=utf-8;" }
+  );
+
+  const url = URL.createObjectURL(blob);
+
+  const link = document.createElement("a");
+
+  link.href = url;
+  link.download = "annunci-losanna.csv";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  URL.revokeObjectURL(url);
 }
 
 
@@ -2045,6 +2154,48 @@ function App() {
 
   /*
    * ============================================================
+   * ANNUNCI ORDINATI PER PREZZO
+   *
+   * Gli annunci senza prezzo vanno in fondo alla lista.
+   * ============================================================
+   */
+
+  const sortedFeatures =
+    [...filteredFeatures].sort(
+      (a, b) => {
+        const priceA = toNumber(
+          getPropertyValue(
+            a.properties || {},
+            ["price_monthly", "monthly_price", "price"]
+          )
+        );
+
+        const priceB = toNumber(
+          getPropertyValue(
+            b.properties || {},
+            ["price_monthly", "monthly_price", "price"]
+          )
+        );
+
+        if (priceA === null && priceB === null) {
+          return 0;
+        }
+
+        if (priceA === null) {
+          return 1;
+        }
+
+        if (priceB === null) {
+          return -1;
+        }
+
+        return priceA - priceB;
+      }
+    );
+
+
+  /*
+   * ============================================================
    * NUMERO FILTRI ATTIVI
    * ============================================================
    */
@@ -2683,12 +2834,33 @@ function App() {
               <section style={filterStyles.listPanel}>
 
                 <div style={filterStyles.listPanelHeader}>
-                  {filteredFeatures.length}{" "}
+
+                  <span>
+                    {filteredFeatures.length}{" "}
+                    {
+                      filteredFeatures.length === 1
+                        ? "annuncio corrisponde ai filtri"
+                        : "annunci corrispondono ai filtri"
+                    }
+                    {" "}(ordinati per prezzo)
+                  </span>
+
                   {
-                    filteredFeatures.length === 1
-                      ? "annuncio corrisponde ai filtri"
-                      : "annunci corrispondono ai filtri"
+                    filteredFeatures.length > 0
+                      ? (
+                          <button
+                            type="button"
+                            style={filterStyles.downloadButton}
+                            onClick={
+                              () => downloadCsv(sortedFeatures)
+                            }
+                          >
+                            Scarica CSV
+                          </button>
+                        )
+                      : null
                   }
+
                 </div>
 
                 {
@@ -2705,6 +2877,7 @@ function App() {
                             <thead>
                               <tr>
                                 <th style={filterStyles.th}>Descrizione</th>
+                                <th style={filterStyles.th}>Fonte</th>
                                 <th style={filterStyles.th}>Prezzo</th>
                                 <th style={filterStyles.th}>Via</th>
                                 <th style={filterStyles.th}>Libero dal</th>
@@ -2714,7 +2887,7 @@ function App() {
 
                             <tbody>
                               {
-                                filteredFeatures.map((feature, index) => {
+                                sortedFeatures.map((feature, index) => {
                                   const properties = feature.properties || {};
 
                                   const price = toNumber(
@@ -2735,6 +2908,14 @@ function App() {
                                           propertyTypeLabel(
                                             properties.property_type
                                           )
+                                        }
+                                      </td>
+
+                                      <td style={filterStyles.td}>
+                                        {
+                                          properties.source
+                                            ? sourceLabel(properties.source)
+                                            : "—"
                                         }
                                       </td>
 
