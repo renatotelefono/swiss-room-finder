@@ -175,27 +175,40 @@ const filterStyles = {
     color: "#6b7280",
   },
 
-  listItem: {
-    padding: "10px 0",
+  tableWrapper: {
+    overflowX: "auto",
+  },
+
+  table: {
+    width: "100%",
+    borderCollapse: "collapse",
+    fontSize: "13px",
+  },
+
+  th: {
+    textAlign: "left",
+    padding: "8px 10px",
+    borderBottom: "2px solid #e5e7eb",
+    color: "#374151",
+    fontWeight: "600",
+    whiteSpace: "nowrap",
+  },
+
+  tr: {
     borderBottom: "1px solid #f3f4f6",
   },
 
-  listTitle: {
-    fontWeight: "600",
+  td: {
+    padding: "8px 10px",
     color: "#111827",
-    marginBottom: "4px",
-  },
-
-  listMeta: {
-    fontSize: "13px",
-    color: "#6b7280",
-    marginBottom: "4px",
+    verticalAlign: "top",
   },
 
   listLink: {
-    fontSize: "13px",
     color: "#1d4ed8",
     textDecoration: "none",
+    fontWeight: "600",
+    whiteSpace: "nowrap",
   },
 
   activeBadge: {
@@ -2686,60 +2699,85 @@ function App() {
                         </div>
                       )
                     : (
-                        filteredFeatures.map((feature, index) => {
-                          const properties = feature.properties || {};
+                        <div style={filterStyles.tableWrapper}>
+                          <table style={filterStyles.table}>
 
-                          const price = toNumber(
-                            getPropertyValue(properties, [
-                              "price_monthly",
-                              "monthly_price",
-                              "price",
-                            ])
-                          );
+                            <thead>
+                              <tr>
+                                <th style={filterStyles.th}>Descrizione</th>
+                                <th style={filterStyles.th}>Prezzo</th>
+                                <th style={filterStyles.th}>Via</th>
+                                <th style={filterStyles.th}>Libero dal</th>
+                                <th style={filterStyles.th}>Annuncio</th>
+                              </tr>
+                            </thead>
 
-                          const locationText = [
-                            properties.postal_code,
-                            properties.city,
-                          ]
-                            .filter(Boolean)
-                            .join(" ");
-
-                          return (
-                            <div
-                              key={properties.source_url || index}
-                              style={filterStyles.listItem}
-                            >
-                              <div style={filterStyles.listTitle}>
-                                {properties.title || "Annuncio"}
-                              </div>
-
-                              <div style={filterStyles.listMeta}>
-                                {
-                                  price !== null
-                                    ? `${price.toLocaleString("it-CH")} CHF / mese`
-                                    : "Prezzo non disponibile"
-                                }
-                                {locationText ? ` · ${locationText}` : ""}
-                                {properties.source ? ` · ${sourceLabel(properties.source)}` : ""}
-                              </div>
-
+                            <tbody>
                               {
-                                properties.source_url
-                                  ? (
-                                      <a
-                                        href={properties.source_url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        style={filterStyles.listLink}
-                                      >
-                                        Apri annuncio
-                                      </a>
-                                    )
-                                  : null
+                                filteredFeatures.map((feature, index) => {
+                                  const properties = feature.properties || {};
+
+                                  const price = toNumber(
+                                    getPropertyValue(properties, [
+                                      "price_monthly",
+                                      "monthly_price",
+                                      "price",
+                                    ])
+                                  );
+
+                                  return (
+                                    <tr
+                                      key={properties.source_url || index}
+                                      style={filterStyles.tr}
+                                    >
+                                      <td style={filterStyles.td}>
+                                        {
+                                          propertyTypeLabel(
+                                            properties.property_type
+                                          )
+                                        }
+                                      </td>
+
+                                      <td style={filterStyles.td}>
+                                        {
+                                          price !== null
+                                            ? `${price.toLocaleString("it-CH")} CHF`
+                                            : "—"
+                                        }
+                                      </td>
+
+                                      <td style={filterStyles.td}>
+                                        {properties.address || "—"}
+                                      </td>
+
+                                      <td style={filterStyles.td}>
+                                        {properties.available_from || "—"}
+                                      </td>
+
+                                      <td style={filterStyles.td}>
+                                        {
+                                          properties.source_url
+                                            ? (
+                                                <a
+                                                  href={properties.source_url}
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  style={filterStyles.listLink}
+                                                >
+                                                  Apri
+                                                </a>
+                                              )
+                                            : "—"
+                                        }
+                                      </td>
+                                    </tr>
+                                  );
+                                })
                               }
-                            </div>
-                          );
-                        })
+                            </tbody>
+
+                          </table>
+                        </div>
                       )
                 }
 
