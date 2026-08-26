@@ -58,6 +58,7 @@ SOURCES = {
         "ingestion/collectors/ronorp_details.py",
         "ingestion/normalization/normalize_listings.py",
         "ingestion/geocoding/geocode.py",
+        "ingestion/export/generate_geojson.py",
     ],
     "Ron Orp - Romandie (Losanna)": [
         "ingestion/collectors/ronorp_romandie_index.py",

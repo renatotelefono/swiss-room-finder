@@ -1,6 +1,6 @@
 {
   "source": "ronorp",
-  "count": 3,
+  "count": 2,
   "listings": [
     {
       "source": "ronorp",
@@ -46,58 +46,8 @@
       "description_raw": "Master Student UZH looking for 1 room apartement /studio\nKontakt\n\nDetails\n\nPreis\n\nCHF1'100.00\n\nTyp\nSUCHE\nAdresse\n--\nCity/Agglo\n\nCity\n\nPLZ\n\n--\n\nRäume\n\n--\n\nBadezimmer\n\n1\n\nBöden\n\nErdgeschoss\n\nQuadratmeter\n\n--\n\nSuche nach\n\nRent\n\nBesichtigungstermin/e\n--\nVertrag\n\n--\n\nEmail\n--\n\nHi everyone!\n\n\n\n\nI’m currently pursuing my Master’s degree in Data Science in Zurich while working part-time. I’m a clean, responsible, and quiet person who respects the space and takes great care of where I live. I’m looking for a cozy studio (up to CHF 1,100/month) with good connections to the city. I have a stable income, a clean credit record (Betreibungsauszug), and my full application dossier ready to go. If you have a studio available, sublet (Zwischenmiete), or lease takeover (Nachmiete), I’d love to hear from you!\n\n\n\n\nLouise",
       "external_url": null,
       "dates": {
-        "first_seen_at": "2026-08-12T14:30:08.800621+00:00",
-        "last_seen_at": "2026-08-12T14:30:08.800621+00:00"
-      },
-      "status": "active",
-      "excluded_reason": "wanted_listing"
-    },
-    {
-      "source": "ronorp",
-      "source_url": "https://ronorp.net/market/posts/looking-for-wg",
-      "title": "Looking for WG :)",
-      "price": {
-        "monthly": 1200.0,
-        "currency": "CHF"
-      },
-      "location": {
-        "address": null,
-        "postal_code": null,
-        "city": null,
-        "country": "CH",
-        "latitude": null,
-        "longitude": null,
-        "precision": "city"
-      },
-      "property": {
-        "type": "shared_apartment",
-        "rooms": 1.0,
-        "size_m2": null,
-        "floor": "Erdgeschoss",
-        "furnished": false
-      },
-      "contract": {
-        "type": null,
-        "available_from": null,
-        "available_to": null,
-        "minimum_months": null,
-        "maximum_months": null
-      },
-      "offer_type": "wanted",
-      "restrictions": {
-        "students_only": null,
-        "gender": null,
-        "minimum_age": null,
-        "maximum_age": null,
-        "pets_allowed": null,
-        "smoking_allowed": null
-      },
-      "description": "Hi everyone, My name is Alessandro, 24, and I am currently looking for a room in Zurich or the surrounding area. I am employed full-time in a Zurich...",
-      "description_raw": "Looking for WG :)\nKontakt\n\nDetails\n\nPreis\n\nCHF1'200.00\n\nTyp\nSUCHE\nAdresse\n--\nCity/Agglo\n\nAgglo\n\nPLZ\n\n--\n\nRäume\n\n1\n\nBadezimmer\n\n1\n\nBöden\n\nErdgeschoss\n\nQuadratmeter\n\n--\n\nSuche nach\n\nRent\n\nBesichtigungstermin/e\n--\nVertrag\n\n--\n\nEmail\n--\n\nHi everyone,\n\n\n\n\nMy name is Alessandro, 24, and I am currently looking for a room in Zurich or the surrounding area.\n\nI am employed full-time in a Zurich restaurant (I finish working the latest at 22:30), clean, respectful, and easy to live with. In my free time I like meeting my colleagues for a drink or going by the lake or by the river for a swim.\n\nIdeally, I am looking for a shared apartment with a maximum of one or two other tenants, as I prefer a quieter and more comfortable living environment.\n\n\n\n\nThank you for your time and I look forward to hearing from you.\n\nBest regards,\n\nAlessandro",
-      "external_url": null,
-      "dates": {
-        "first_seen_at": "2026-08-12T14:31:29.610074+00:00",
-        "last_seen_at": "2026-08-12T14:31:29.610074+00:00"
+        "first_seen_at": "2026-08-26T15:54:15.231482+00:00",
+        "last_seen_at": "2026-08-26T15:54:15.231482+00:00"
       },
       "status": "active",
       "excluded_reason": "wanted_listing"
@@ -146,8 +96,8 @@
       "description_raw": "Sea-view duplex apartment in San Sebastián\nKontakt\n\nDetails\n\nPreis\n\nCHF5'000.00\n\nTyp\nBIETE\nAdresse\nPaseo del Faro 59, 20008 Donostia / San Sebastián, Gipuzkoa, España\nCity/Agglo\n\nCity\n\nPLZ\n\n--\n\nRäume\n\n3\n\nBadezimmer\n\n2\n\nBöden\n\n1. Etage\n\nQuadratmeter\n\n100\n\nSuche nach\n\nRent\n\nBesichtigungstermin/e\n--\nVertrag\n\nTemporary\n\nEmail\n--\n\nEnjoy an unforgettable stay by the sea in beautiful San Sebastián, Basque country, Spain. This stunning 100 m² duplex apartment offers breathtaking views of the bay and is perfect for a relaxing getaway of several weeks.\n\nThe property is spread over two levels and features:\n\n3 bedrooms\n2 bathrooms\nA fully equipped kitchen\nA bright living and dining area\nPrivate parking space\n\nThe apartment comes fully furnished and ready to move in.\n\nMinimum stay: 1 month\n\nAvailable: July 20th+",
       "external_url": null,
       "dates": {
-        "first_seen_at": "2026-08-12T14:33:46.326656+00:00",
-        "last_seen_at": "2026-08-12T14:33:46.326656+00:00"
+        "first_seen_at": "2026-08-26T15:56:21.274065+00:00",
+        "last_seen_at": "2026-08-26T15:56:21.274065+00:00"
       },
       "status": "active",
       "excluded_reason": "outside_switzerland"
