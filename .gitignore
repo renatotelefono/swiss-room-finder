@@ -171,3 +171,7 @@ wheels/
 # Log di update_all_data.py
 update_log.txt
 update_log_err.txt
+
+# File temporanei di verifica build
+frontend/out_check.js
+frontend/out_check.css
